@@ -1,1 +1,1 @@
-{"name":"klar-recht-lernen","private":true,"type":"module","scripts":{"dev":"python3 -m http.server 8896 --bind 127.0.0.1","check":"node --check app.js && node --check content.js && node --check engine.js"}}
+{"name":"klar-recht-lernen","private":true,"type":"module","scripts":{"dev":"python3 -m http.server 8896 --bind 127.0.0.1","check":"node --check app.js && node --check content.js && node --check engine.js && node --check motion.js"}}

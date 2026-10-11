@@ -2,7 +2,7 @@
 
 Eine responsive Lernseite für die Prüfung am 4. November 2026. Browserseitige Anwendung ohne Build und ohne laufende Serverkosten für die App-Logik.
 
-## Der aktuelle Entwurf
+## Lernstoff
 
 69 eigene, einfach formulierte Lernkarten, aufgeteilt in zwölf kleine Themen:
 
@@ -15,11 +15,13 @@ Die vollständigen PDF-Skripten sind **nicht** als vollständiger Fragenkatalog 
 ## Lernen
 
 1. Bereich oder kleine Themenportion wählen.
-2. Karte beantworten, Antwort aufdecken und „Kann ich“ oder „Noch einmal“ wählen.
+2. Karte im Kopf beantworten und durch Antippen aufklappen. „Kann ich“ oder „Noch einmal“ wählen. „Überspringen“ schiebt sie ans Ende der Runde, ohne sie als gelernt oder falsch zu zählen.
 3. Im Quiz eine von vier Antworten wählen. Die Auswahl wird gemischt. Eine falsche Antwort zeigt die richtige Lösung samt Erklärung; die Frage bleibt am Ende der Warteschlange.
 4. Die Runde endet, wenn jede Frage einmal richtig beantwortet wurde. Ein korrekt beantworteter Punkt ist kein Nachweis für langfristiges Behalten; erneutes Lernen an einem späteren Tag bleibt sinnvoll.
 
 Der Stand und die laufende Runde werden im lokalen Browser gespeichert. Ein erneuter Fehler nimmt eine Frage wieder aus „gelernt“. Merklisten und die Suche helfen beim Wiederholen. Export und Import übertragen den Stand zwischen Geräten. Es gibt keine automatische geräteübergreifende Synchronisierung. Private Browserfenster und das Löschen von Website-Daten können den Stand entfernen.
+
+Die Kartenübersicht bietet Suche, Bereichsauswahl, die Filter Alle / Gemerkt / Fehler / Noch offen und einzeln aufklappbare Antworten. Filter, Antworten und Kartenwechsel aktualisieren nur den betroffenen Abschnitt; Navigation und Lernkopf bleiben bestehen. Die Tab- und Filtermarkierungen bewegen sich kontinuierlich und reagieren auch auf schnelle Wechsel.
 
 Die App nutzt auf Apple-Geräten die Systemschrift. Navigation, Abstände und Bewegungen orientieren sich an Apples Designvorgaben. Es handelt sich um eine Web-Umsetzung, keine native SwiftUI-App. Systemeinstellungen für reduzierte Bewegung werden berücksichtigt. Hell, Dunkel und System sind wählbar.
 
@@ -35,7 +37,7 @@ Dann `http://127.0.0.1:8896` öffnen. Ein Doppelklick auf index.html funktionier
 
 Für einen Link ohne Anmeldung eignet sich GitHub Pages aus einem öffentlichen Repository. Alle Dateien dieses Ordners werden in das Repository übernommen; `index.html` liegt im Repository-Wurzelverzeichnis. Pages kann von `main` und `/ (root)` veröffentlichen. Relative Pfade unterstützen auch Repository-Unterverzeichnisse.
 
-Sites ist eine alternative Hosting-Möglichkeit, falls ein begrenzter Zugang gewünscht wird und der Account diese Freigabe unterstützt. Für diesen Stand ist GitHub Pages mit einem Link ohne Anmeldung vorgesehen.
+Sites ist eine alternative Hosting-Möglichkeit, falls ein begrenzter Zugang gewünscht wird und der Account diese Freigabe unterstützt. Die veröffentlichte Version steht unter https://vovere-studios.github.io/recht-zass-lernen/ ohne Anmeldung zur Verfügung.
 
 ## Quellen und Genauigkeit
 
