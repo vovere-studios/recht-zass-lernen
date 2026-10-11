@@ -1,6 +1,7 @@
 export const questions = [
   {
     "id": "recht-01",
+    "number": 1,
     "topic": "grundlagen",
     "question": "Wann wurde das Zahnärztliche Assistenz-Gesetz erlassen?",
     "answer": "30. April 2012.",
@@ -24,6 +25,7 @@ export const questions = [
   },
   {
     "id": "recht-02",
+    "number": 2,
     "topic": "grundlagen",
     "question": "Wo wurden die neuen Regeln zur ZAss eingefügt?",
     "answer": "In die §§ 72 bis 91 des Zahnärztegesetzes (ZÄG).",
@@ -47,6 +49,7 @@ export const questions = [
   },
   {
     "id": "recht-03",
+    "number": 3,
     "topic": "grundlagen",
     "question": "Was ist die Hauptaufgabe der ZAss?",
     "answer": "Zahnärzte und MKG-Fachärzte bei Behandlung und Betreuung unterstützen; auch Organisation und Verwaltung gehören dazu.",
@@ -70,6 +73,7 @@ export const questions = [
   },
   {
     "id": "recht-04",
+    "number": 4,
     "topic": "grundlagen",
     "question": "Wie heißt der Beruf offiziell?",
     "answer": "Zahnärztliche Assistentin oder Zahnärztlicher Assistent.",
@@ -93,6 +97,7 @@ export const questions = [
   },
   {
     "id": "recht-05",
+    "number": 5,
     "topic": "taetigkeiten",
     "question": "Welche Aufgabe gehört zur konservierenden Behandlung?",
     "answer": "Füllungen polieren und empfindliche Zahnhälse desensibilisieren.",
@@ -116,6 +121,7 @@ export const questions = [
   },
   {
     "id": "recht-06",
+    "number": 6,
     "topic": "taetigkeiten",
     "question": "Welche Aufgaben darf die ZAss beim Röntgen übernehmen?",
     "answer": "Röntgenaufnahmen anfertigen, entwickeln und archivieren.",
@@ -139,6 +145,7 @@ export const questions = [
   },
   {
     "id": "recht-07",
+    "number": 7,
     "topic": "taetigkeiten",
     "question": "Welche Hygieneaufgaben gehören zur ZAss?",
     "answer": "Praxishygiene; reinigen, desinfizieren, sterilisieren, Medizinprodukte, Geräte und Behelfe warten sowie Abfälle entsorgen.",
@@ -162,6 +169,7 @@ export const questions = [
   },
   {
     "id": "recht-08",
+    "number": 8,
     "topic": "taetigkeiten",
     "question": "Welche vorbeugenden Maßnahmen gehören zur ZAss?",
     "answer": "Mundstatus erheben; Mundhygiene erklären und zeigen; Zähne anfärben, Putzen üben, zur zahngesunden Ernährung beraten und fluoridieren.",
@@ -185,6 +193,7 @@ export const questions = [
   },
   {
     "id": "recht-09",
+    "number": 9,
     "topic": "aufsicht",
     "question": "Unter welchen Bedingungen darf die ZAss arbeiten?",
     "answer": "Nur nach Anordnung und unter Aufsicht von Zahnärzten, Dentisten oder MKG-Fachärzten.",
@@ -208,6 +217,7 @@ export const questions = [
   },
   {
     "id": "recht-10",
+    "number": 10,
     "topic": "aufsicht",
     "question": "Wie genau muss die Anweisung sein?",
     "answer": "Das hängt vom Einzelfall ab: Je einfacher die Aufgabe und je erfahrener die ZAss, desto kürzer darf die Anweisung sein.",
@@ -231,6 +241,7 @@ export const questions = [
   },
   {
     "id": "recht-11",
+    "number": 11,
     "topic": "aufsicht",
     "question": "Was ist das Mindestmaß der Aufsicht in der Praxis?",
     "answer": "Der Zahnarzt oder die Zahnärztin ist während der Behandlung in der Ordination anwesend.",
@@ -254,6 +265,7 @@ export const questions = [
   },
   {
     "id": "recht-12",
+    "number": 12,
     "topic": "haftung",
     "question": "Was bedeutet „Erfüllungsgehilfin“ bei der ZAss?",
     "answer": "Die ZAss hilft dem Zahnarzt, seine Pflichten aus dem Behandlungsvertrag zu erfüllen.",
@@ -277,6 +289,7 @@ export const questions = [
   },
   {
     "id": "recht-13",
+    "number": 13,
     "topic": "haftung",
     "question": "Wen klagt der Patient in der Regel bei einem Schaden durch die ZAss?",
     "answer": "Den Zahnarzt oder die Zahnärztin aus dem Behandlungsvertrag.",
@@ -300,6 +313,7 @@ export const questions = [
   },
   {
     "id": "recht-14",
+    "number": 14,
     "topic": "haftung",
     "question": "Welches Gesetz regelt das Zurückholen von Schadenersatz bei der ZAss?",
     "answer": "Das Dienstnehmerhaftpflichtgesetz (DHG).",
@@ -323,6 +337,7 @@ export const questions = [
   },
   {
     "id": "recht-15",
+    "number": 15,
     "topic": "grundlagen",
     "question": "Welcher weitere Gesundheitsberuf wurde 2012 gesetzlich etabliert?",
     "answer": "Die Prophylaxeassistenz (PAss).",
@@ -346,6 +361,7 @@ export const questions = [
   },
   {
     "id": "recht-16",
+    "number": 16,
     "topic": "grundlagen",
     "question": "Was wurde für schon tätige Mitarbeiterinnen geregelt?",
     "answer": "Übergangsbestimmungen für Personen, die bereits in diesen Berufen arbeiteten.",
@@ -369,6 +385,7 @@ export const questions = [
   },
   {
     "id": "recht-17",
+    "number": 17,
     "topic": "vertretung",
     "question": "Warum vertritt die Arbeiterkammer die ZAss?",
     "answer": "Weil ZAss angestellte Arbeitnehmerinnen und Arbeitnehmer sind.",
@@ -392,6 +409,7 @@ export const questions = [
   },
   {
     "id": "recht-18",
+    "number": 18,
     "topic": "vertretung",
     "question": "Wer organisiert unter anderem Fortbildungen für die ZAss?",
     "answer": "Die Österreichische Zahnärztekammer und die Landeszahnärztekammern.",
@@ -415,6 +433,7 @@ export const questions = [
   },
   {
     "id": "recht-19",
+    "number": 19,
     "topic": "taetigkeiten",
     "question": "Was gehört bei Zahnersatz zum Tätigkeitsbereich der ZAss?",
     "answer": "Bei der prothetischen Behandlung assistieren und einfache Laborarbeiten übernehmen.",
@@ -438,6 +457,7 @@ export const questions = [
   },
   {
     "id": "recht-20",
+    "number": 20,
     "topic": "grundlagen",
     "question": "Zu welchen Berufen zählt die ZAss seit 2012?",
     "answer": "Zu den reglementierten Gesundheitsberufen.",
@@ -461,6 +481,7 @@ export const questions = [
   },
   {
     "id": "sv-01",
+    "number": 21,
     "topic": "prinzipien",
     "question": "Welche drei klassischen Versicherungszweige gibt es?",
     "answer": "Krankenversicherung, Unfallversicherung und Pensionsversicherung.",
@@ -479,6 +500,7 @@ export const questions = [
   },
   {
     "id": "sv-02",
+    "number": 22,
     "topic": "prinzipien",
     "question": "Was bedeutet Pflichtversicherung?",
     "answer": "Die Versicherung entsteht automatisch kraft Gesetzes, sobald die Voraussetzungen erfüllt sind.",
@@ -497,6 +519,7 @@ export const questions = [
   },
   {
     "id": "sv-03",
+    "number": 23,
     "topic": "prinzipien",
     "question": "Was bedeutet Solidaritätsprinzip?",
     "answer": "Beiträge richten sich grundsätzlich nach dem Einkommen; medizinische Leistungen nach dem Bedarf, nicht nach dem persönlichen Risiko.",
@@ -515,6 +538,7 @@ export const questions = [
   },
   {
     "id": "sv-04",
+    "number": 24,
     "topic": "prinzipien",
     "question": "Was heißt „keine Risikoauslese“?",
     "answer": "Die Pflichtversicherung sortiert Menschen wegen Alter, Krankheit oder hohem Risiko nicht aus.",
@@ -533,6 +557,7 @@ export const questions = [
   },
   {
     "id": "sv-05",
+    "number": 25,
     "topic": "prinzipien",
     "question": "Was ist der Unterschied zur privaten Krankenversicherung?",
     "answer": "Dort hängt der Beitrag vom persönlichen Risiko und vom gewünschten Leistungsumfang ab.",
@@ -551,6 +576,7 @@ export const questions = [
   },
   {
     "id": "sv-06",
+    "number": 26,
     "topic": "prinzipien",
     "question": "Was ist eine Vollversicherung?",
     "answer": "Versicherung in allen drei Zweigen: Kranken-, Unfall- und Pensionsversicherung.",
@@ -569,6 +595,7 @@ export const questions = [
   },
   {
     "id": "sv-07",
+    "number": 27,
     "topic": "prinzipien",
     "question": "Was ist eine Versicherung einfach erklärt?",
     "answer": "Viele Menschen teilen ein Risiko: Beiträge finanzieren Leistungen, wenn ein versichertes Ereignis eintritt.",
@@ -587,6 +614,7 @@ export const questions = [
   },
   {
     "id": "sv-08",
+    "number": 28,
     "topic": "prinzipien",
     "question": "Was ist ein Sozialstaat?",
     "answer": "Ein Staat, der Menschen gegen soziale Risiken absichert und soziale Unterstützung organisiert.",
@@ -605,6 +633,7 @@ export const questions = [
   },
   {
     "id": "sv-09",
+    "number": 29,
     "topic": "traeger",
     "question": "Welche fünf Sozialversicherungsträger sollst du kennen?",
     "answer": "ÖGK, AUVA, PVA, SVS und BVAEB.",
@@ -623,6 +652,7 @@ export const questions = [
   },
   {
     "id": "sv-10",
+    "number": 30,
     "topic": "traeger",
     "question": "Wovon hängt ab, bei welchem Träger man versichert ist?",
     "answer": "Vor allem von der beruflichen Tätigkeit und den gesetzlichen Regeln.",
@@ -641,6 +671,7 @@ export const questions = [
   },
   {
     "id": "sv-11",
+    "number": 31,
     "topic": "traeger",
     "question": "Was bedeutet ÖGK und wofür ist sie zuständig?",
     "answer": "Österreichische Gesundheitskasse: Krankenversicherung, vor allem für Arbeitnehmer und viele Pensionisten.",
@@ -659,6 +690,7 @@ export const questions = [
   },
   {
     "id": "sv-12",
+    "number": 32,
     "topic": "traeger",
     "question": "Was bedeutet AUVA und was macht sie?",
     "answer": "Allgemeine Unfallversicherungsanstalt: Unfallversicherung, unter anderem für viele Arbeitnehmer, Schüler und Studierende.",
@@ -677,6 +709,7 @@ export const questions = [
   },
   {
     "id": "sv-13",
+    "number": 33,
     "topic": "traeger",
     "question": "Was bedeutet PVA und wofür ist sie zuständig?",
     "answer": "Pensionsversicherungsanstalt: Pensionsversicherung, insbesondere für Arbeitnehmer im ASVG.",
@@ -695,6 +728,7 @@ export const questions = [
   },
   {
     "id": "sv-14",
+    "number": 34,
     "topic": "traeger",
     "question": "Wer ist typischerweise bei der SVS versichert?",
     "answer": "Viele Selbständige sowie Land- und Forstwirte.",
@@ -713,6 +747,7 @@ export const questions = [
   },
   {
     "id": "sv-15",
+    "number": 35,
     "topic": "traeger",
     "question": "Welche Gruppen betreut die BVAEB?",
     "answer": "Vor allem öffentlich Bedienstete sowie bestimmte Beschäftigte aus Eisenbahnen und Bergbau.",
@@ -731,6 +766,7 @@ export const questions = [
   },
   {
     "id": "sv-16",
+    "number": 36,
     "topic": "traeger",
     "question": "Bei welchen Trägern ist eine typische angestellte ZAss versichert?",
     "answer": "Krankenversicherung bei der ÖGK, Unfallversicherung bei der AUVA, Pensionsversicherung bei der PVA.",
@@ -749,6 +785,7 @@ export const questions = [
   },
   {
     "id": "sv-17",
+    "number": 37,
     "topic": "traeger",
     "question": "Welche Versicherungszweige führt jeder Träger durch?",
     "answer": "ÖGK: KV; AUVA: UV; PVA: PV; SVS und BVAEB: KV, UV und PV.",
@@ -767,6 +804,7 @@ export const questions = [
   },
   {
     "id": "sv-18",
+    "number": 38,
     "topic": "traeger",
     "question": "Wie sind die Sozialversicherungsträger organisiert?",
     "answer": "Als öffentliche Körperschaften in Selbstverwaltung, mit zentraler Leitung und regionalen Stellen.",
@@ -785,6 +823,7 @@ export const questions = [
   },
   {
     "id": "sv-19",
+    "number": 39,
     "topic": "beitraege",
     "question": "Was ist der Sozialversicherungsbeitrag?",
     "answer": "Ein Beitrag zur Finanzierung der sozialen Absicherung, etwa bei Krankheit, Unfall und im Alter.",
@@ -803,6 +842,7 @@ export const questions = [
   },
   {
     "id": "sv-20",
+    "number": 40,
     "topic": "beitraege",
     "question": "Wer zahlt die Beiträge bei Arbeitnehmern?",
     "answer": "Arbeitnehmer und Arbeitgeber tragen Beiträge; der Arbeitgeber führt sie ab.",
@@ -821,6 +861,7 @@ export const questions = [
   },
   {
     "id": "sv-21",
+    "number": 41,
     "topic": "beitraege",
     "question": "Welche Beiträge und Umlagen stehen im Skript bei der Lohnabrechnung?",
     "answer": "KV, UV, PV, Arbeitslosenversicherung, Insolvenz-Entgeltsicherung, Arbeiterkammerumlage und Wohnbauförderung.",
@@ -839,6 +880,7 @@ export const questions = [
   },
   {
     "id": "sv-22",
+    "number": 42,
     "topic": "beitraege",
     "question": "Welche zwei Beiträge trägt der Arbeitgeber allein?",
     "answer": "Unfallversicherung und Insolvenz-Entgeltsicherung.",
@@ -857,6 +899,7 @@ export const questions = [
   },
   {
     "id": "sv-23",
+    "number": 43,
     "topic": "beitraege",
     "question": "Was macht die ÖGK mit den eingehobenen Beiträgen?",
     "answer": "Sie hebt für Arbeitnehmer auch Beiträge für andere Stellen ein und leitet sie an diese weiter.",
@@ -875,6 +918,7 @@ export const questions = [
   },
   {
     "id": "sv-24",
+    "number": 44,
     "topic": "leistungen",
     "question": "Aus welchen drei Bereichen kommen KV-Leistungen?",
     "answer": "Vorsorge, Mutterschaft und Krankheit.",
@@ -893,6 +937,7 @@ export const questions = [
   },
   {
     "id": "sv-25",
+    "number": 45,
     "topic": "leistungen",
     "question": "Welche Beispiele gibt es für KV-Leistungen bei Krankheit?",
     "answer": "Ärztliche und zahnärztliche Behandlung, Medikamente, Krankenhaus, Therapien, Hauskrankenpflege, Krankengeld sowie Fahrt- und Transportkosten.",
@@ -911,6 +956,7 @@ export const questions = [
   },
   {
     "id": "sv-26",
+    "number": 46,
     "topic": "leistungen",
     "question": "Welche Beispiele gibt es für Vorsorge und Mutterschaft?",
     "answer": "Vorsorge: Vorsorge- und Jugendlichenuntersuchung, Eltern-Kind-Pass. Mutterschaft: Krankenhaus, Wochengeld und Auszahlung des Kinderbetreuungsgeldes.",
@@ -929,6 +975,7 @@ export const questions = [
   },
   {
     "id": "sv-27",
+    "number": 47,
     "topic": "leistungen",
     "question": "Welche Aufgaben hat die Unfallversicherung?",
     "answer": "Arbeitsunfälle und Berufskrankheiten verhüten, Folgen behandeln und entschädigen; Rehabilitation und arbeitsmedizinische Betreuung.",
@@ -947,6 +994,7 @@ export const questions = [
   },
   {
     "id": "sv-28",
+    "number": 48,
     "topic": "leistungen",
     "question": "Wann sichert die Pensionsversicherung Einkommen?",
     "answer": "Im Alter, bei geminderter Arbeitsfähigkeit und für Hinterbliebene nach dem Tod eines Versicherten.",
@@ -965,6 +1013,7 @@ export const questions = [
   },
   {
     "id": "sv-29",
+    "number": 49,
     "topic": "leistungen",
     "question": "Was bedeuten Umlageverfahren und Generationenvertrag?",
     "answer": "Die heutigen Beiträge finanzieren die heutigen Pensionen; spätere Beitragszahler finanzieren die nächste Generation.",
@@ -983,6 +1032,7 @@ export const questions = [
   },
   {
     "id": "sv-30",
+    "number": 50,
     "topic": "leistungen",
     "question": "Wie unterscheidet sich das Kapitaldeckungsverfahren?",
     "answer": "Beiträge werden angespart und angelegt, um spätere Leistungen daraus zu finanzieren.",
@@ -1001,6 +1051,7 @@ export const questions = [
   },
   {
     "id": "sv-31",
+    "number": 51,
     "topic": "leistungen",
     "question": "Was ist eine Sachleistung, was eine Geldleistung?",
     "answer": "Sachleistung: zum Beispiel Behandlung oder Krankenhaus. Geldleistung: zum Beispiel Kranken- oder Wochengeld.",
@@ -1019,6 +1070,7 @@ export const questions = [
   },
   {
     "id": "sv-32",
+    "number": 52,
     "topic": "versorgung",
     "question": "Wo finden Zahnbehandlungen für Versicherte statt?",
     "answer": "Bei Vertrags- oder Wahlzahnärzten, entsprechenden Gruppenpraxen, Vertragskieferorthopäden und in Zahnambulatorien.",
@@ -1037,6 +1089,7 @@ export const questions = [
   },
   {
     "id": "sv-33",
+    "number": 53,
     "topic": "versorgung",
     "question": "Was unterscheidet Vertrags- und Wahlzahnarzt?",
     "answer": "Vertragszahnarzt: Kassenleistungen direkt mit der Kasse abrechnen. Wahlzahnarzt: Patient zahlt und kann eine Kostenerstattung beantragen.",
@@ -1055,6 +1108,7 @@ export const questions = [
   },
   {
     "id": "sv-34",
+    "number": 54,
     "topic": "versorgung",
     "question": "Worauf beziehen sich die 80 % bei der Erstattung laut Skript?",
     "answer": "Auf den Kassentarif für die entsprechende Leistung, nicht auf die gesamte private Rechnung.",
@@ -1073,6 +1127,7 @@ export const questions = [
   },
   {
     "id": "admin-01",
+    "number": 55,
     "topic": "ecard",
     "question": "Was ist die e-card?",
     "answer": "Eine persönliche Chipkarte für den Zugang zum e-card-System; sie hat den Krankenschein ersetzt.",
@@ -1091,6 +1146,7 @@ export const questions = [
   },
   {
     "id": "admin-02",
+    "number": 56,
     "topic": "ecard",
     "question": "Welche Daten stehen auf der Vorderseite der e-card?",
     "answer": "Name, gegebenenfalls Titel und Foto, SV-Nummer, Kartenfolgenummer, gegebenenfalls NFC-Symbol sowie Service- und Gesundheitsberatungstelefonnummer.",
@@ -1109,6 +1165,7 @@ export const questions = [
   },
   {
     "id": "admin-03",
+    "number": 57,
     "topic": "ecard",
     "question": "Welche Versicherungsdaten sind direkt auf der e-card gespeichert?",
     "answer": "Keine aktuellen Anspruchs- oder Gesundheitsdaten; diese werden im geschützten e-card-System verwaltet.",
@@ -1127,6 +1184,7 @@ export const questions = [
   },
   {
     "id": "admin-04",
+    "number": 58,
     "topic": "ecard",
     "question": "Was ist die EKVK?",
     "answer": "Die Europäische Krankenversicherungskarte auf der Rückseite der e-card.",
@@ -1145,6 +1203,7 @@ export const questions = [
   },
   {
     "id": "admin-05",
+    "number": 59,
     "topic": "ecard",
     "question": "Was ist die Admin-Karte?",
     "answer": "Die Zugangskarte der Ordination: Mit PIN weist sie die Praxis als berechtigten Vertragspartner im e-card-System aus.",
@@ -1163,6 +1222,7 @@ export const questions = [
   },
   {
     "id": "admin-06",
+    "number": 60,
     "topic": "ecard",
     "question": "Was bewirkt das Stecken der e-card in der Ordination?",
     "answer": "Die Ordination kann den aktuellen Versicherungsanspruch im e-card-System prüfen und die Konsultation erfassen.",
@@ -1181,6 +1241,7 @@ export const questions = [
   },
   {
     "id": "admin-07",
+    "number": 61,
     "topic": "formulare",
     "question": "Welche drei allgemeinen Formulare nennt das Skript?",
     "answer": "Medikamentenrezepte, Überweisungen und Arbeitsunfähigkeitsmeldungen.",
@@ -1199,6 +1260,7 @@ export const questions = [
   },
   {
     "id": "admin-08",
+    "number": 62,
     "topic": "formulare",
     "question": "Was ist eine Überweisung und was steht darauf?",
     "answer": "Ein Auftrag zur weiteren Abklärung oder Behandlung: Patientendaten, überweisender Arzt, Gesundheitsproblem bzw. Verdachtsdiagnose und Grund oder Auftrag der Überweisung.",
@@ -1217,6 +1279,7 @@ export const questions = [
   },
   {
     "id": "admin-09",
+    "number": 63,
     "topic": "formulare",
     "question": "Was ist das e-Rezept?",
     "answer": "Ein elektronisches Rezept; die Rezeptdaten liegen im e-card-System und können in der Apotheke abgerufen werden.",
@@ -1235,6 +1298,7 @@ export const questions = [
   },
   {
     "id": "admin-10",
+    "number": 64,
     "topic": "formulare",
     "question": "Wie kann man ein e-Rezept einlösen?",
     "answer": "Mit e-card, e-Rezept-Code oder e-Rezept-ID.",
@@ -1253,6 +1317,7 @@ export const questions = [
   },
   {
     "id": "admin-11",
+    "number": 65,
     "topic": "formulare",
     "question": "Welche Vorteile hat das e-Rezept?",
     "answer": "Kein Papier nötig, gut lesbar, offene Rezepte online einsehbar und Rezeptgebühren nachvollziehbar.",
@@ -1271,6 +1336,7 @@ export const questions = [
   },
   {
     "id": "admin-12",
+    "number": 66,
     "topic": "formulare",
     "question": "Was bestätigt eine Arbeitsunfähigkeitsmeldung?",
     "answer": "Dass eine Person aus gesundheitlichen Gründen ihre Arbeit vorübergehend nicht ausüben kann.",
@@ -1289,6 +1355,7 @@ export const questions = [
   },
   {
     "id": "admin-13",
+    "number": 67,
     "topic": "formulare",
     "question": "Was steht auf der Krankmeldung für den Arbeitgeber?",
     "answer": "Patientenangaben, Untersuchung bzw. Beginn und voraussichtliche Dauer der Arbeitsunfähigkeit sowie Arztangaben, Stempel und Unterschrift.",
@@ -1307,6 +1374,7 @@ export const questions = [
   },
   {
     "id": "admin-14",
+    "number": 68,
     "topic": "formulare",
     "question": "Was muss ein Arbeitnehmer bei Krankheit tun?",
     "answer": "Den Arbeitgeber unverzüglich informieren und eine Bestätigung vorlegen, wenn sie verlangt wird.",
@@ -1325,6 +1393,7 @@ export const questions = [
   },
   {
     "id": "admin-15",
+    "number": 69,
     "topic": "formulare",
     "question": "Was bedeutet SV-Nummer?",
     "answer": "Sozialversicherungsnummer: eine persönliche Kennung für die Zuordnung im Sozialversicherungssystem.",

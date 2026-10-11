@@ -522,6 +522,8 @@ button:hover:not(:disabled){transition-timing-function:var(--control-ease)}
 .study-progress{margin-bottom:24px;transition:none}
 .study-card{padding:30px 36px;border-radius:29px;box-shadow:0 18px 55px -34px rgba(32,46,79,.28)}
 .study-card-top .pill{font-size:10px;text-transform:none;letter-spacing:0;padding:9px 13px;line-height:1.5;max-width:calc(100% - 52px)}
+.study-card-top .pill{display:inline-flex;align-items:center;flex-wrap:wrap;column-gap:6px;row-gap:2px}
+.question-id{white-space:nowrap}
 .study-card .question-number{font-size:10px;line-height:1.6;letter-spacing:.5px}
 .study-question{font-size:28px;line-height:1.4;font-weight:570;letter-spacing:-.7px}
 .flash-card{cursor:pointer}
@@ -579,6 +581,9 @@ body{overflow-x:clip}
 .review-controls .secondary{font-size:12px;min-height:44px;padding:0 16px}
 .review-controls .text-button{font-size:12px;min-height:44px}
 .quiz-kind{margin:0 0 12px;gap:4px}
+.order-field{border:0;padding:0;min-width:0;margin:24px 0 20px}
+.order-field legend{font-size:13px;font-weight:550;margin-bottom:10px}
+.round-order{margin:0}
 .quiz-kind label{position:relative;flex:1;z-index:1;cursor:pointer;min-height:52px;display:flex;justify-content:center;align-items:center;border-radius:12px;color:var(--muted);font-size:14px;font-weight:550}
 .quiz-kind label.active{color:var(--blue)}
 .quiz-kind label>span{display:flex;gap:8px;align-items:center;justify-content:center}

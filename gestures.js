@@ -1,4 +1,4 @@
-import {settleCardGesture, motionEnabled} from './motion.js?v=5';
+import {settleCardGesture, motionEnabled} from './motion.js?v=8';
 
 // Pointer events cover touch, Pencil and mouse while native vertical scrolling stays available.
 export function attachCardGestures(root, {canRate, onRate}) {

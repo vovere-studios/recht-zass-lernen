@@ -1,5 +1,5 @@
-const CACHE='klar-recht-v7-single-card';
-const FILES=['./','./index.html','./style.css?v=7','./app.js?v=7','./content.js','./engine.js?v=5','./motion.js?v=5','./gestures.js?v=5','./manifest.webmanifest','./assets/icon.svg','./assets/icon-192.png','./assets/icon-512.png'];
+const CACHE='klar-recht-v8-numbered';
+const FILES=['./','./index.html','./style.css?v=8','./app.js?v=8','./content.js?v=8','./engine.js?v=8','./motion.js?v=8','./gestures.js?v=8','./manifest.webmanifest','./assets/icon.svg','./assets/icon-192.png','./assets/icon-512.png'];
 self.addEventListener('install',event=>event.waitUntil(caches.open(CACHE).then(cache=>cache.addAll(FILES))));
 self.addEventListener('activate',event=>event.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(k=>k.startsWith('klar-recht-')&&k!==CACHE).map(k=>caches.delete(k))))));
 self.addEventListener('fetch',event=>{if(event.request.method!=='GET'||new URL(event.request.url).origin!==self.location.origin)return;event.respondWith(fetch(event.request).then(response=>{if(response.ok){const copy=response.clone();caches.open(CACHE).then(cache=>cache.put(event.request,copy));}return response;}).catch(()=>caches.match(event.request).then(response=>response||(event.request.mode==='navigate'?caches.match('./index.html'):Response.error()))));});

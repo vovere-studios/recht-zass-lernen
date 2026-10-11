@@ -2,8 +2,9 @@ export const VERSION = 1;
 export function shuffle(list, random = Math.random) {
  const a = [...list]; for (let i=a.length-1; i>0; i--) {const j=Math.floor(random()*(i+1));[a[i],a[j]]=[a[j],a[i]];} return a;
 }
-export function createSession(ids, mode, original=false, kind='practice') {
- return {mode,kind:mode==='quiz'&&kind==='exam'?'exam':'practice',original,ids:[...ids],queue:shuffle(ids),done:[],attempts:0,errors:0,skips:0,answer:null,choiceOrder:null,selected:null,history:[],reviewIndex:null,results:{},ended:false,started:Date.now()};
+export function createSession(ids, mode, original=false, kind='practice', ordering='mixed') {
+ const order=ordering==='sorted'?'sorted':'mixed';
+ return {mode,kind:mode==='quiz'&&kind==='exam'?'exam':'practice',ordering:order,original,ids:[...ids],queue:order==='sorted'?[...ids]:shuffle(ids),done:[],attempts:0,errors:0,skips:0,answer:null,choiceOrder:null,selected:null,history:[],reviewIndex:null,results:{},ended:false,started:Date.now()};
 }
 export const isReviewing = session => Number.isInteger(session?.reviewIndex);
 export const reviewEntry = session => isReviewing(session) ? session.history[session.reviewIndex] : null;
@@ -81,8 +82,8 @@ export function cleanState(raw, validIds) {
  if(ids.length&&queue.length===new Set(queue).size&&!queue.some(x=>done.includes(x))&&ids.length===queue.length+done.length){
  const history=Array.isArray(s.history)?s.history.filter(e=>e&&ids.includes(e.id)&&['correct','wrong','skipped'].includes(e.answer)).slice(-1000).map(e=>({id:e.id,answer:e.answer,selected:choice(e.selected),choiceOrder:order(e.choiceOrder)})):[];
  const results={};if(s.mode==='quiz'&&s.kind==='exam'&&s.results&&typeof s.results==='object')for(const [id,v]of Object.entries(s.results))if(ids.includes(id)&&v&&typeof v.correct==='boolean')results[id]={correct:v.correct,selected:choice(v.selected)};
- session={mode:s.mode,kind:s.mode==='quiz'&&s.kind==='exam'?'exam':'practice',ids,queue,done,original:s.original===true,attempts:number(s.attempts),errors:number(s.errors),skips:number(s.skips),answer:['wrong','correct'].includes(s.answer)?s.answer:null,choiceOrder:order(s.choiceOrder),selected:choice(s.selected),history,reviewIndex:Number.isInteger(s.reviewIndex)&&s.reviewIndex>=0&&s.reviewIndex<history.length?s.reviewIndex:null,results,ended:s.ended===true,started:number(s.started)||Date.now(),endedAt:number(s.endedAt)};
+ session={mode:s.mode,ordering:s.ordering==='sorted'?'sorted':'mixed',kind:s.mode==='quiz'&&s.kind==='exam'?'exam':'practice',ids,queue,done,original:s.original===true,attempts:number(s.attempts),errors:number(s.errors),skips:number(s.skips),answer:['wrong','correct'].includes(s.answer)?s.answer:null,choiceOrder:order(s.choiceOrder),selected:choice(s.selected),history,reviewIndex:Number.isInteger(s.reviewIndex)&&s.reviewIndex>=0&&s.reviewIndex<history.length?s.reviewIndex:null,results,ended:s.ended===true,started:number(s.started)||Date.now(),endedAt:number(s.endedAt)};
  }
  }
- return {version:VERSION,known:array('known'),bookmarks:array('bookmarks'),stats,session,theme:['system','light','dark'].includes(obj.theme)?obj.theme:'system',motion:obj.motion!==false};
+ return {version:VERSION,roundOrder:obj.roundOrder==='sorted'?'sorted':'mixed',known:array('known'),bookmarks:array('bookmarks'),stats,session,theme:['system','light','dark'].includes(obj.theme)?obj.theme:'system',motion:obj.motion!==false};
 }
