@@ -144,6 +144,7 @@ main{max-width:1160px;padding:47px 48px 30px;margin:auto;outline:none}
 .setup-panel{margin-top:26px;background:var(--surface);border:1px solid var(--line);border-radius:24px;padding:28px}
 .setup-panel h2{font-size:17px;margin-bottom:8px}
 .setup-panel p{font-size:12px;color:var(--muted);line-height:1.8}
+.setup-panel #setup-count{margin-bottom:20px}
 .choice-topics{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin:23px 0}
 .choice-topic{display:flex;align-items:flex-start;gap:12px;padding:18px;border:1px solid var(--line);border-radius:17px;cursor:pointer}
 .choice-topic:has(input:checked){background:var(--blue-soft);border-color:#8ea7fb66}
