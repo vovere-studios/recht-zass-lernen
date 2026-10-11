@@ -1,7 +1,7 @@
 const reduced = matchMedia('(prefers-reduced-motion: reduce)');
 const active = new Set();
 const running = new WeakMap();
-const observed = new WeakSet();
+const observed = new Set();
 const ease = 'cubic-bezier(.22,.8,.24,1)';
 
 export const motionEnabled = () => document.documentElement.dataset.motion !== 'off' && !reduced.matches;
@@ -56,10 +56,16 @@ export function syncSelection(group, selected, animated = true) {
 }
 
 const resize = new ResizeObserver(entries => {
-  for (const {target} of entries) syncSelection(target, target.querySelector('.active'), false);
+  for (const {target} of entries) {
+    if (!target.isConnected) { resize.unobserve(target); observed.delete(target); continue; }
+    syncSelection(target, target.querySelector('.active'), false);
+  }
 });
 
 export function syncSelections(root = document, animated = true) {
+  for (const group of observed) {
+    if (!group.isConnected) { resize.unobserve(group); observed.delete(group); }
+  }
   root.querySelectorAll('.side-nav,.bottom-nav,.segmented').forEach(group => {
     if (!observed.has(group)) { observed.add(group); resize.observe(group); }
     syncSelection(group, group.querySelector('.active'), animated);
@@ -68,6 +74,14 @@ export function syncSelections(root = document, animated = true) {
 
 export function disclose(panel, open, immediate = false) {
   if (!panel) return;
+  // A new answer can open while its card is still entering. Let the region grow with it.
+  const region = panel.closest('.motion-region');
+  if (region?.style.height) {
+    region._token = (region._token || 0) + 1;
+    running.get(region)?.get('height')?.cancel();
+    region.style.removeProperty('height');
+    region.style.removeProperty('overflow');
+  }
   const previous = panel._disclosure;
   const height = panel.hidden ? 0 : panel.getBoundingClientRect().height;
   const opacity = panel.hidden ? 0 : Number(getComputedStyle(panel).opacity);
@@ -90,7 +104,7 @@ export function disclose(panel, open, immediate = false) {
 }
 
 // Only the changing region is replaced. The navigation, search and study header stay mounted.
-export function replaceRegion(region, html, {direction = 0} = {}) {
+export function replaceRegion(region, html, {direction = 0, animated = true} = {}) {
   if (!region) return;
   const token = region._token = (region._token || 0) + 1;
   const height = region.getBoundingClientRect().height;
@@ -99,7 +113,7 @@ export function replaceRegion(region, html, {direction = 0} = {}) {
   region.style.removeProperty('height');
   region.style.removeProperty('overflow');
   region.innerHTML = `<div class="region-content">${html}</div>`;
-  if (!motionEnabled()) return;
+  if (!animated || !motionEnabled()) return;
   const content = region.firstElementChild;
   const targetHeight = region.getBoundingClientRect().height;
   if (old && direction) {
@@ -113,7 +127,8 @@ export function replaceRegion(region, html, {direction = 0} = {}) {
   }
   enter(content, {x: direction*20, y: direction ? 0 : 5, duration: direction ? 240 : 180});
   // Avoid a long animated scroll surface when a filter removes dozens of rows.
-  if (Math.abs(targetHeight-height) < 600 && height) {
+  const difference = Math.abs(targetHeight-height);
+  if (difference > 1 && difference < 600 && height) {
     region.style.height = `${height}px`;
     region.style.overflow = 'hidden';
     const size = animate(region, [{height: `${height}px`}, {height: `${targetHeight}px`}], {duration: 240}, 'height');

@@ -25,6 +25,8 @@ Die Kartenübersicht bietet Suche, Bereichsauswahl, die Filter Alle / Gemerkt / 
 
 Die App nutzt auf Apple-Geräten die Systemschrift. Navigation, Abstände und Bewegungen orientieren sich an Apples Designvorgaben. Es handelt sich um eine Web-Umsetzung, keine native SwiftUI-App. Systemeinstellungen für reduzierte Bewegung werden berücksichtigt. Hell, Dunkel und System sind wählbar.
 
+Auf Telefonen und Tablets bleibt die Navigation unten, auch auf dem iPad Air 11″ im Querformat. Touch-Geräte behalten sie auch bei breiteren Fenstern. Eine Seitenleiste erscheint erst ab 1200 CSS-Pixeln auf Geräten mit Mausbedienung und Hover. Kleinere Desktop-Fenster wechseln ebenfalls zur unteren Navigation. Die Suche aktualisiert ihre Ergebnisse ohne wiederholtes Einblenden bei jedem Buchstaben; sofortiges Aufklappen während eines Kartenwechsels bleibt möglich.
+
 ## Lokal öffnen
 
 ```sh

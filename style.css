@@ -556,8 +556,8 @@ button:hover:not(:disabled){transition-timing-function:var(--control-ease)}
 .quiz-next{min-height:52px}
 .quiz-next .primary{min-height:50px;font-size:14px;padding:12px 28px}
 
-/* Floating navigation stays comfortable throughout phone and tablet layouts. */
-@media(max-width:1199px){
+/* Touch devices keep their navigation below, including landscape iPads with a trackpad. */
+@media(max-width:1199px),(any-pointer:coarse),(hover:none){
  .sidebar{display:none}
  .topbar{height:78px;padding:0 32px}
  .breadcrumb{display:none}
@@ -588,8 +588,7 @@ button:hover:not(:disabled){transition-timing-function:var(--control-ease)}
  .topic-card p{font-size:12px}
  .topic-card{padding:24px}
 }
-@media(min-width:1200px){
- .bottom-nav{display:none}
+@media(min-width:1200px) and (hover:hover) and (pointer:fine){
  .card-list.library-list{grid-template-columns:1fr 1fr}
  .library-list .list-question{font-size:16px}
  .library-list .list-card{padding:20px}
