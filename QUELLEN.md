@@ -102,3 +102,7 @@ Die 20 fotografierten Fragen sind vollständig erfasst. Der gesamte unklare Tafe
 - [Meet Liquid Glass](https://developer.apple.com/videos/play/wwdc2025/219/)
 
 Systemschrift auf Apple-Geräten, zugängliche Web-Komponenten, sanfte Übergänge und Berücksichtigung reduzierter Bewegung. Keine nativen SwiftUI- oder UIKit-Komponenten im Browser.
+
+## Wortlaut in der App
+
+Die 20 Fotofragen erscheinen standardmäßig mit ursprünglicher Frage und Antwort in Themen, Karteikarten und Quiz. Die einfache Fassung ist optional über die Einstellungen nach zwei Bestätigungen verfügbar. Es wird immer nur eine Fassung angezeigt. Für die übrigen 49 Fragen gibt es keinen fotografierten Prüfungswortlaut; sie bleiben unverändert.

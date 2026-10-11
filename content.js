@@ -2,6 +2,7 @@ export const questions = [
   {
     "id": "recht-01",
     "number": 1,
+    "originalChoiceMap": [1, 0, 2, 3],
     "topic": "grundlagen",
     "question": "Wann wurde das Zahnärztliche Assistenz-Gesetz erlassen?",
     "answer": "30. April 2012.",
@@ -26,6 +27,7 @@ export const questions = [
   {
     "id": "recht-02",
     "number": 2,
+    "originalChoiceMap": [3, 0, 1, 2],
     "topic": "grundlagen",
     "question": "Wo wurden die neuen Regeln zur ZAss eingefügt?",
     "answer": "In die §§ 72 bis 91 des Zahnärztegesetzes (ZÄG).",
@@ -50,6 +52,7 @@ export const questions = [
   {
     "id": "recht-03",
     "number": 3,
+    "originalChoiceMap": [1, 0, 2, 3],
     "topic": "grundlagen",
     "question": "Was ist die Hauptaufgabe der ZAss?",
     "answer": "Zahnärzte und MKG-Fachärzte bei Behandlung und Betreuung unterstützen; auch Organisation und Verwaltung gehören dazu.",
@@ -74,6 +77,7 @@ export const questions = [
   {
     "id": "recht-04",
     "number": 4,
+    "originalChoiceMap": [2, 0, 1, 3],
     "topic": "grundlagen",
     "question": "Wie heißt der Beruf offiziell?",
     "answer": "Zahnärztliche Assistentin oder Zahnärztlicher Assistent.",
@@ -98,6 +102,7 @@ export const questions = [
   {
     "id": "recht-05",
     "number": 5,
+    "originalChoiceMap": [1, 0, 2, 3],
     "topic": "taetigkeiten",
     "question": "Welche Aufgabe gehört zur konservierenden Behandlung?",
     "answer": "Füllungen polieren und empfindliche Zahnhälse desensibilisieren.",
@@ -122,6 +127,7 @@ export const questions = [
   {
     "id": "recht-06",
     "number": 6,
+    "originalChoiceMap": [0, 1, 2, 3],
     "topic": "taetigkeiten",
     "question": "Welche Aufgaben darf die ZAss beim Röntgen übernehmen?",
     "answer": "Röntgenaufnahmen anfertigen, entwickeln und archivieren.",
@@ -146,6 +152,7 @@ export const questions = [
   {
     "id": "recht-07",
     "number": 7,
+    "originalChoiceMap": [1, 0, 2, 3],
     "topic": "taetigkeiten",
     "question": "Welche Hygieneaufgaben gehören zur ZAss?",
     "answer": "Praxishygiene; reinigen, desinfizieren, sterilisieren, Medizinprodukte, Geräte und Behelfe warten sowie Abfälle entsorgen.",
@@ -170,6 +177,7 @@ export const questions = [
   {
     "id": "recht-08",
     "number": 8,
+    "originalChoiceMap": [1, 0, 2, 3],
     "topic": "taetigkeiten",
     "question": "Welche vorbeugenden Maßnahmen gehören zur ZAss?",
     "answer": "Mundstatus erheben; Mundhygiene erklären und zeigen; Zähne anfärben, Putzen üben, zur zahngesunden Ernährung beraten und fluoridieren.",
@@ -194,6 +202,7 @@ export const questions = [
   {
     "id": "recht-09",
     "number": 9,
+    "originalChoiceMap": [1, 0, 2, 3],
     "topic": "aufsicht",
     "question": "Unter welchen Bedingungen darf die ZAss arbeiten?",
     "answer": "Nur nach Anordnung und unter Aufsicht von Zahnärzten, Dentisten oder MKG-Fachärzten.",
@@ -218,6 +227,7 @@ export const questions = [
   {
     "id": "recht-10",
     "number": 10,
+    "originalChoiceMap": [1, 0, 2, 3],
     "topic": "aufsicht",
     "question": "Wie genau muss die Anweisung sein?",
     "answer": "Das hängt vom Einzelfall ab: Je einfacher die Aufgabe und je erfahrener die ZAss, desto kürzer darf die Anweisung sein.",
@@ -242,6 +252,7 @@ export const questions = [
   {
     "id": "recht-11",
     "number": 11,
+    "originalChoiceMap": [2, 0, 1, 3],
     "topic": "aufsicht",
     "question": "Was ist das Mindestmaß der Aufsicht in der Praxis?",
     "answer": "Der Zahnarzt oder die Zahnärztin ist während der Behandlung in der Ordination anwesend.",
@@ -266,6 +277,7 @@ export const questions = [
   {
     "id": "recht-12",
     "number": 12,
+    "originalChoiceMap": [0, 1, 2, 3],
     "topic": "haftung",
     "question": "Was bedeutet „Erfüllungsgehilfin“ bei der ZAss?",
     "answer": "Die ZAss hilft dem Zahnarzt, seine Pflichten aus dem Behandlungsvertrag zu erfüllen.",
@@ -290,6 +302,7 @@ export const questions = [
   {
     "id": "recht-13",
     "number": 13,
+    "originalChoiceMap": [0, 1, 2, 3],
     "topic": "haftung",
     "question": "Wen klagt der Patient in der Regel bei einem Schaden durch die ZAss?",
     "answer": "Den Zahnarzt oder die Zahnärztin aus dem Behandlungsvertrag.",
@@ -314,6 +327,7 @@ export const questions = [
   {
     "id": "recht-14",
     "number": 14,
+    "originalChoiceMap": [1, 0, 2, 3],
     "topic": "haftung",
     "question": "Welches Gesetz regelt das Zurückholen von Schadenersatz bei der ZAss?",
     "answer": "Das Dienstnehmerhaftpflichtgesetz (DHG).",
@@ -338,6 +352,7 @@ export const questions = [
   {
     "id": "recht-15",
     "number": 15,
+    "originalChoiceMap": [1, 0, 2, 3],
     "topic": "grundlagen",
     "question": "Welcher weitere Gesundheitsberuf wurde 2012 gesetzlich etabliert?",
     "answer": "Die Prophylaxeassistenz (PAss).",
@@ -362,6 +377,7 @@ export const questions = [
   {
     "id": "recht-16",
     "number": 16,
+    "originalChoiceMap": [3, 0, 1, 2],
     "topic": "grundlagen",
     "question": "Was wurde für schon tätige Mitarbeiterinnen geregelt?",
     "answer": "Übergangsbestimmungen für Personen, die bereits in diesen Berufen arbeiteten.",
@@ -386,6 +402,7 @@ export const questions = [
   {
     "id": "recht-17",
     "number": 17,
+    "originalChoiceMap": [1, 0, 2, 3],
     "topic": "vertretung",
     "question": "Warum vertritt die Arbeiterkammer die ZAss?",
     "answer": "Weil ZAss angestellte Arbeitnehmerinnen und Arbeitnehmer sind.",
@@ -410,6 +427,7 @@ export const questions = [
   {
     "id": "recht-18",
     "number": 18,
+    "originalChoiceMap": [2, 0, 1, 3],
     "topic": "vertretung",
     "question": "Wer organisiert unter anderem Fortbildungen für die ZAss?",
     "answer": "Die Österreichische Zahnärztekammer und die Landeszahnärztekammern.",
@@ -434,6 +452,7 @@ export const questions = [
   {
     "id": "recht-19",
     "number": 19,
+    "originalChoiceMap": [3, 0, 1, 2],
     "topic": "taetigkeiten",
     "question": "Was gehört bei Zahnersatz zum Tätigkeitsbereich der ZAss?",
     "answer": "Bei der prothetischen Behandlung assistieren und einfache Laborarbeiten übernehmen.",
@@ -458,6 +477,7 @@ export const questions = [
   {
     "id": "recht-20",
     "number": 20,
+    "originalChoiceMap": [1, 0, 2, 3],
     "topic": "grundlagen",
     "question": "Zu welchen Berufen zählt die ZAss seit 2012?",
     "answer": "Zu den reglementierten Gesundheitsberufen.",

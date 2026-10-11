@@ -2,12 +2,27 @@ export const VERSION = 1;
 export function shuffle(list, random = Math.random) {
  const a = [...list]; for (let i=a.length-1; i>0; i--) {const j=Math.floor(random()*(i+1));[a[i],a[j]]=[a[j],a[i]];} return a;
 }
-export function createSession(ids, mode, original=false, kind='practice', ordering='mixed') {
+export function createSession(ids, mode, original=true, kind='practice', ordering='mixed') {
  const order=ordering==='sorted'?'sorted':'mixed';
  return {mode,kind:mode==='quiz'&&kind==='exam'?'exam':'practice',ordering:order,original,ids:[...ids],queue:order==='sorted'?[...ids]:shuffle(ids),done:[],attempts:0,errors:0,skips:0,answer:null,choiceOrder:null,selected:null,history:[],reviewIndex:null,results:{},ended:false,started:Date.now()};
 }
 export const isReviewing = session => Number.isInteger(session?.reviewIndex);
 export const reviewEntry = session => isReviewing(session) ? session.history[session.reviewIndex] : null;
+// Translate choice indices, never the recorded score, when changing wording.
+export function convertSessionWording(session, original, questions) {
+ if(!session||session.original===original)return;
+ const byId=new Map(questions.map(q=>[q.id,q]));
+ const convert=(entry,id)=>{
+  const map=byId.get(id)?.originalChoiceMap;if(!map)return;
+  const index=n=>n===null||n===undefined?null:original?map[n]:map.indexOf(n);
+  entry.selected=index(entry.selected);
+  if(entry.choiceOrder)entry.choiceOrder=entry.choiceOrder.map(index);
+ };
+ convert(session,session.queue[0]);
+ for(const entry of session.history||[])convert(entry,entry.id);
+ for(const [id,entry]of Object.entries(session.results||{}))convert(entry,id);
+ session.original=original;
+}
 export function answerQuiz(session, id, right, selected=null) {
  if (session.ended || isReviewing(session) || session.answer!==null || session.queue[0]!==id || session.kind==='exam'&&session.results[id]) return false;
  session.attempts++; if(!right) session.errors++;
@@ -85,5 +100,5 @@ export function cleanState(raw, validIds) {
  session={mode:s.mode,ordering:s.ordering==='sorted'?'sorted':'mixed',kind:s.mode==='quiz'&&s.kind==='exam'?'exam':'practice',ids,queue,done,original:s.original===true,attempts:number(s.attempts),errors:number(s.errors),skips:number(s.skips),answer:['wrong','correct'].includes(s.answer)?s.answer:null,choiceOrder:order(s.choiceOrder),selected:choice(s.selected),history,reviewIndex:Number.isInteger(s.reviewIndex)&&s.reviewIndex>=0&&s.reviewIndex<history.length?s.reviewIndex:null,results,ended:s.ended===true,started:number(s.started)||Date.now(),endedAt:number(s.endedAt)};
  }
  }
- return {version:VERSION,roundOrder:obj.roundOrder==='sorted'?'sorted':'mixed',known:array('known'),bookmarks:array('bookmarks'),stats,session,theme:['system','light','dark'].includes(obj.theme)?obj.theme:'system',motion:obj.motion!==false};
+ return {version:VERSION,simpleLanguage:obj.simpleLanguage===true,roundOrder:obj.roundOrder==='sorted'?'sorted':'mixed',known:array('known'),bookmarks:array('bookmarks'),stats,session,theme:['system','light','dark'].includes(obj.theme)?obj.theme:'system',motion:obj.motion!==false};
 }
