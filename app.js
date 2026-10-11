@@ -1,7 +1,7 @@
 import {questions} from './content.js';
-import {shuffle,createSession,answerQuiz,advanceSession,skipQuestion,goBack,goForward,resumeQuestion,finishSession,examScore,isReviewing,reviewEntry,cleanState} from './engine.js?v=4';
-import {enter,disclose,replaceRegion,syncSelections,finishMotion,motionEnabled} from './motion.js?v=4';
-import {attachCardGestures} from './gestures.js?v=4';
+import {shuffle,createSession,answerQuiz,advanceSession,skipQuestion,goBack,goForward,resumeQuestion,finishSession,examScore,isReviewing,reviewEntry,cleanState} from './engine.js?v=5';
+import {enter,disclose,replaceRegion,syncSelections,finishMotion,motionEnabled} from './motion.js?v=5';
+import {attachCardGestures} from './gestures.js?v=5';
 const KEY='klar-recht-v1',byId=new Map(questions.map(q=>[q.id,q]));
 const icons={home:'<path d="m3 10 9-7 9 7v10a1 1 0 0 1-1 1h-5v-7H9v7H4a1 1 0 0 1-1-1Z"/>',topics:'<rect x="3" y="3" width="7" height="7" rx="2"/><rect x="14" y="3" width="7" height="7" rx="2"/><rect x="3" y="14" width="7" height="7" rx="2"/><rect x="14" y="14" width="7" height="7" rx="2"/>',cards:'<rect x="5" y="6" width="15" height="15" rx="3"/><path d="M16 3H6a3 3 0 0 0-3 3v10M9 11h7M9 15h5"/>',quiz:'<path d="m13 2-9 12h7l-1 8 10-12h-7l0-8Z"/>',progress:'<path d="M3 12a9 9 0 1 0 9-9M12 3v9h9"/><path d="m5 4 3 3"/>',arrow:'<path d="M5 12h14m-5-5 5 5-5 5"/>',back:'<path d="m14 6-6 6 6 6"/>',check:'<path d="m5 12 4 4L19 6"/>',close:'<path d="m6 6 12 12M6 18 18 6"/>',bookmark:'<path d="M7 3h10a1 1 0 0 1 1 1v17l-6-4-6 4V4a1 1 0 0 1 1-1Z"/>',search:'<circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 5 5"/>',heart:'<path d="M20.8 4.6a5 5 0 0 0-7 0L12 6.4l-1.8-1.8a5 5 0 0 0-7 7L12 20l8.8-8.4a5 5 0 0 0 0-7Z"/>',shield:'<path d="m12 3 8 3v6c0 5-8 9-8 9s-8-4-8-9V6l8-3Z"/><path d="m8 12 3 3 5-6"/>',scale:'<path d="M12 3v18M5 21h14M4 7l8-2 8 2M4 7l-3 7h6L4 7ZM20 7l-3 7h6l-3-7ZM1 14c0 3 6 3 6 0m10 0c0 3 6 3 6 0"/>',ecard:'<rect x="2" y="5" width="20" height="14" rx="3"/><path d="M2 10h20M6 14h4m4 0h4"/>',spark:'<path d="m12 3 2.5 6.5L21 12l-6.5 2.5L12 21l-2.5-6.5L3 12l6.5-2.5L12 3Z"/>',chevron:'<path d="m8 5 7 7-7 7"/>',skip:'<path d="m5 5 9 7-9 7V5Zm13 0v14"/>',book:'<path d="M12 6c-3-3-7-3-10-2v15c3-1 7-1 10 2 3-3 7-3 10-2V4c-3-1-7-1-10 2Zm0 0v15"/>'};
 const svg=(name,cls='')=>`<svg class="${cls}" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${icons[name]||icons.book}</svg>`;
@@ -104,7 +104,7 @@ function launch(ids,mode,original,kind='practice'){
 }
 function sessionCaption(s){
  if(isReviewing(s))return `Rückblick<span>Schritt ${s.reviewIndex+1} von ${s.history.length} · Wertung bleibt</span>`;
- if(s.kind==='exam'){const score=examScore(s);return `Prüfung · ${score.total-score.open} von ${score.total} beantwortet<span>${score.open} noch offen · Ergebnis am Ende</span>`;}
+ if(s.kind==='exam'){const score=examScore(s);return s.ended||!s.queue.length?`Prüfung abgeschlossen<span>${score.total-score.open} von ${score.total} beantwortet</span>`:`Prüfung · ${score.total-score.open} von ${score.total} beantwortet<span>${score.open} noch offen · Ergebnis am Ende</span>`;}
  return `${s.done.length} von ${s.ids.length} ${s.mode==='quiz'?'richtig':'geschafft'}<span>${s.queue.length} noch offen${s.errors?` · ${s.errors} ${s.errors===1?'Wiederholung':'Wiederholungen'}`:''}</span>`;
 }
 function progressCount(s){return s.kind==='exam'?examScore(s).total-examScore(s).open:s.done.length;}
@@ -122,7 +122,7 @@ function roundNavigation(s){
  return `<div class="round-nav"><button class="round-nav-button" data-action="round-back" ${backDisabled?'disabled':''}>${svg('back')}Zurück</button><span>${review?'Ansehen, ohne neu zu werten':s.mode==='cards'?'Dein Tempo. Deine Entscheidung.':'Übersprungene Fragen bleiben offen.'}</span>${review?`<button class="round-nav-button" data-action="review-next">Weiter${svg('arrow')}</button>`:`<button class="round-nav-button" data-action="skip-question" ${(s.queue.length<2||s.answer!==null)?'disabled':''}>Überspringen${svg('skip')}</button>`}</div>`;
 }
 function reviewControls(s,entry){
- const q=byId.get(entry.id),status=entry.answer==='skipped'?'Übersprungen · noch offen':s.mode==='cards'?(entry.answer==='correct'?'Als „Kann ich“ bewertet':'Für „Noch einmal“ vorgemerkt'):(entry.answer==='correct'?'Richtig beantwortet':'Falsch beantwortet');
+ const q=byId.get(entry.id),status=entry.answer==='skipped'?`Übersprungen · ${s.queue.includes(q.id)?'noch offen':'inzwischen beantwortet'}`:s.mode==='cards'?(entry.answer==='correct'?'Als „Kann ich“ bewertet':'Für „Noch einmal“ vorgemerkt'):(entry.answer==='correct'?'Richtig beantwortet':'Falsch beantwortet');
  const canResume=!s.ended&&s.answer===null&&s.queue.includes(q.id)&&!(s.kind==='exam'&&s.results[q.id]);
  return `<div class="review-controls"><p>${svg(entry.answer==='skipped'?'skip':entry.answer==='correct'?'check':'book')}<span>${status}</span></p><div>${canResume?`<button class="secondary" data-action="review-resume" data-id="${q.id}">${s.mode==='cards'?'Diese Karte jetzt lernen':'Diese Frage jetzt beantworten'}</button>`:''}<button class="text-button" data-action="review-current">${s.ended||!s.queue.length?'Zum Ergebnis':s.mode==='cards'?'Zur aktuellen Karte':'Zur aktuellen Frage'}${svg('arrow')}</button></div></div>`;
 }

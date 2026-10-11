@@ -557,6 +557,7 @@ button:hover:not(:disabled){transition-timing-function:var(--control-ease)}
 .quiz-next .primary{min-height:50px;font-size:14px;padding:12px 28px}
 
 /* Rounds: primary decisions stay prominent; navigation and review stay quiet. */
+.study-question:focus,.completed h1:focus{outline:none}
 body{overflow-x:clip}
 .workspace{overflow-x:clip}
 .study-top-actions{display:flex;align-items:center;gap:17px;flex-wrap:wrap}
