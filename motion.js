@@ -28,6 +28,24 @@ export function enter(element, {x = 0, y = 6, duration = 220} = {}) {
   animate(element, [{opacity: .25, transform: `translate(${x}px,${y}px)`}, {opacity: 1, transform: 'translate(0,0)'}], {duration}, 'enter');
 }
 
+export async function settleCardGesture(card, {x, y, rotation}, accepted) {
+ const from = `translate3d(${x}px,${y}px,0) rotate(${rotation}deg)`;
+ const endX = Math.sign(x) * Math.min(innerWidth + card.offsetWidth, 1800);
+ const frames = accepted ? [
+  {transform: from, opacity: 1},
+  {transform: `translate3d(${endX}px,${y + 12}px,0) rotate(${Math.sign(x) * 12}deg)`, opacity: 0}
+ ] : [
+  {transform: from, offset: 0},
+  {transform: `translate3d(${-x * .045}px,0,0) rotate(0deg)`, offset: .78},
+  {transform: 'translate3d(0,0,0) rotate(0deg)', offset: 1}
+ ];
+ const animation = animate(card, frames, {duration: accepted ? 240 : 360, fill: 'forwards'}, 'gesture');
+ if (!animation) return true;
+ const completed = await animation.finished.then(() => true, () => false);
+ animation.cancel();
+ return completed;
+}
+
 export function syncSelection(group, selected, animated = true) {
   if (!group || !selected || !group.offsetWidth) return;
   let marker = group.querySelector(':scope > .selection-marker');

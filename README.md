@@ -15,9 +15,13 @@ Die vollständigen PDF-Skripten sind **nicht** als vollständiger Fragenkatalog 
 ## Lernen
 
 1. Bereich oder kleine Themenportion wählen.
-2. Karte im Kopf beantworten und durch Antippen aufklappen. „Kann ich“ oder „Noch einmal“ wählen. „Überspringen“ schiebt sie ans Ende der Runde, ohne sie als gelernt oder falsch zu zählen.
-3. Im Quiz eine von vier Antworten wählen. Die Auswahl wird gemischt. Eine falsche Antwort zeigt die richtige Lösung samt Erklärung; die Frage bleibt am Ende der Warteschlange.
-4. Die Runde endet, wenn jede Frage einmal richtig beantwortet wurde. Ein korrekt beantworteter Punkt ist kein Nachweis für langfristiges Behalten; erneutes Lernen an einem späteren Tag bleibt sinnvoll.
+2. Karte im Kopf beantworten und durch Antippen aufklappen. „Kann ich“ oder „Noch einmal“ wählen. Alternativ nach rechts wischen/ziehen für „Kann ich“, nach links für „Noch einmal“. Eine Vorschau zeigt die Entscheidung; kleine oder abgebrochene Gesten kehren zurück. Vertikales Scrollen und Pinch-Zoom bleiben möglich.
+3. „Überspringen“ schiebt eine Karte oder Quizfrage ans Ende, ohne sie als gelernt oder falsch zu zählen. „Zurück“ zeigt den bisherigen Verlauf mit unveränderter Wertung. Eine übersprungene, noch offene Frage lässt sich aus dem Rückblick wieder aufnehmen.
+4. Im Quiz eine von vier Antworten wählen. Die Auswahl wird gemischt. Im Modus **Üben** zeigt eine falsche Antwort die Lösung samt Erklärung und kommt später wieder. Diese Runde endet, wenn jede Frage einmal richtig beantwortet wurde.
+5. Die **Prüfungsrunde** bewertet jede Frage einmal und zeigt ebenfalls sofort richtig/falsch. Falsch beantwortete Fragen werden in dieser Runde nicht wiederholt. Das Ergebnis ist der Anteil richtiger erster Antworten an allen gewählten Fragen, in Prozent. Eine Rückschau zeigt die eigenen Antworten und die Erklärungen.
+6. Eine Runde lässt sich pausieren oder über „Beenden“ abschließen. Bei einer vorzeitig beendeten Prüfung zählen offene Fragen mit null Punkten. Der bereits gespeicherte Lernfortschritt bleibt erhalten.
+
+Ein korrekt beantworteter Punkt ist kein Nachweis für langfristiges Behalten; erneutes Lernen an einem späteren Tag bleibt sinnvoll.
 
 Der Stand und die laufende Runde werden im lokalen Browser gespeichert. Ein erneuter Fehler nimmt eine Frage wieder aus „gelernt“. Merklisten und die Suche helfen beim Wiederholen. Export und Import übertragen den Stand zwischen Geräten. Es gibt keine automatische geräteübergreifende Synchronisierung. Private Browserfenster und das Löschen von Website-Daten können den Stand entfernen.
 
