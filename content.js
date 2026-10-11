@@ -379,7 +379,7 @@ export const questions = [
       "Weil die Arbeiterkammer die Gesetzgebung im Nationalrat leitet."
     ],
     "correct": 0,
-    "source": "Rechtsgrundlagen, PDF-Seite 8, 12–13",
+    "source": "Rechtsgrundlagen, PDF-Seite 9, 12–13",
     "note": "Die Zahnärztekammer vertritt die Zahnärzte. Für ZAss ist die Berufsausübung nur im Dienstverhältnis zulässig.",
     "originalQuestion": "Warum ist die Arbeiterkammer (und nicht die Zahnärztekammer) die Interessenvertretung der ZAss?",
     "originalChoices": [

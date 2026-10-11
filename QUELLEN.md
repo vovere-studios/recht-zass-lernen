@@ -24,7 +24,7 @@ Die 20 fotografierten Fragen sind vollständig erfasst. Der gesamte unklare Tafe
 | recht-14 | Welches Gesetz regelt das Zurückholen von Schadenersatz bei der ZAss? | Rechtsgrundlagen, PDF-Seite 12 |
 | recht-15 | Welcher weitere Gesundheitsberuf wurde 2012 gesetzlich etabliert? | Rechtsgrundlagen, PDF-Seite 11 |
 | recht-16 | Was wurde für schon tätige Mitarbeiterinnen geregelt? | Rechtsgrundlagen, PDF-Seite 11 |
-| recht-17 | Warum vertritt die Arbeiterkammer die ZAss? | Rechtsgrundlagen, PDF-Seite 8, 12–13 |
+| recht-17 | Warum vertritt die Arbeiterkammer die ZAss? | Rechtsgrundlagen, PDF-Seite 9, 12–13 |
 | recht-18 | Wer organisiert unter anderem Fortbildungen für die ZAss? | Rechtsgrundlagen, PDF-Seite 8–10 |
 | recht-19 | Was gehört bei Zahnersatz zum Tätigkeitsbereich der ZAss? | Rechtsgrundlagen, PDF-Seite 12 |
 | recht-20 | Zu welchen Berufen zählt die ZAss seit 2012? | Rechtsgrundlagen, PDF-Seite 10–11 |
