@@ -20,7 +20,10 @@ export const tafelQuestions = [
     "sourcePdfPage": 3,
     "scriptPage": "14",
     "sourceWidth": 1191,
-    "sourceHeight": 194
+    "sourceHeight": 194,
+    "emphasis": [
+      "Kein Papierrezept nötig"
+    ]
   },
   {
     "id": "tafel-02",
@@ -43,7 +46,12 @@ export const tafelQuestions = [
     "sourcePdfPage": 3,
     "scriptPage": "9–10; Stellvertretung im markierten Auszug",
     "sourceWidth": 1191,
-    "sourceHeight": 702
+    "sourceHeight": 702,
+    "emphasis": [
+      "Dachverband und Zahnärztekammer",
+      "nach diesen Bedingungen",
+      "Versorgung sonst nicht gesichert"
+    ]
   },
   {
     "id": "tafel-03",
@@ -66,7 +74,11 @@ export const tafelQuestions = [
     "sourcePdfPage": 3,
     "scriptPage": "11",
     "sourceWidth": 1191,
-    "sourceHeight": 516
+    "sourceHeight": 516,
+    "emphasis": [
+      "persönliche Chipkarte",
+      "bei jedem Besuch"
+    ]
   },
   {
     "id": "tafel-04",
@@ -89,7 +101,11 @@ export const tafelQuestions = [
     "sourcePdfPage": 3,
     "scriptPage": "13",
     "sourceWidth": 1191,
-    "sourceHeight": 275
+    "sourceHeight": 275,
+    "emphasis": [
+      "PIN-Code",
+      "zwei Admin-Karten"
+    ]
   },
   {
     "id": "tafel-05",
@@ -112,7 +128,11 @@ export const tafelQuestions = [
     "sourcePdfPage": 4,
     "scriptPage": "16",
     "sourceWidth": 1191,
-    "sourceHeight": 351
+    "sourceHeight": 351,
+    "emphasis": [
+      "Diagnose bzw. Beschwerden",
+      "Ziel: Facharzt oder Abteilung"
+    ]
   },
   {
     "id": "tafel-06",
@@ -135,7 +155,8 @@ export const tafelQuestions = [
     "sourcePdfPage": 4,
     "scriptPage": "14",
     "sourceWidth": 1191,
-    "sourceHeight": 319
+    "sourceHeight": 319,
+    "emphasis": []
   },
   {
     "id": "tafel-07",
@@ -158,7 +179,11 @@ export const tafelQuestions = [
     "sourcePdfPage": 4,
     "scriptPage": "17",
     "sourceWidth": 1191,
-    "sourceHeight": 419
+    "sourceHeight": 419,
+    "emphasis": [
+      "voraussichtliche Dauer",
+      "Keine genaue Diagnose"
+    ]
   },
   {
     "id": "tafel-08",
@@ -181,7 +206,10 @@ export const tafelQuestions = [
     "sourcePdfPage": 4,
     "scriptPage": "4",
     "sourceWidth": 1191,
-    "sourceHeight": 598
+    "sourceHeight": 598,
+    "emphasis": [
+      "beruflichen Tätigkeit"
+    ]
   },
   {
     "id": "tafel-09",
@@ -204,7 +232,8 @@ export const tafelQuestions = [
     "sourcePdfPage": 5,
     "scriptPage": "8",
     "sourceWidth": 1191,
-    "sourceHeight": 546
+    "sourceHeight": 546,
+    "emphasis": []
   },
   {
     "id": "tafel-10",
@@ -227,7 +256,8 @@ export const tafelQuestions = [
     "sourcePdfPage": 5,
     "scriptPage": "7",
     "sourceWidth": 1191,
-    "sourceHeight": 385
+    "sourceHeight": 385,
+    "emphasis": []
   },
   {
     "id": "tafel-11",
@@ -250,7 +280,10 @@ export const tafelQuestions = [
     "sourcePdfPage": 5,
     "scriptPage": "7",
     "sourceWidth": 1191,
-    "sourceHeight": 755
+    "sourceHeight": 755,
+    "emphasis": [
+      "zentral organisiert"
+    ]
   },
   {
     "id": "tafel-12",
@@ -273,7 +306,8 @@ export const tafelQuestions = [
     "sourcePdfPage": 6,
     "scriptPage": "6",
     "sourceWidth": 1191,
-    "sourceHeight": 319
+    "sourceHeight": 319,
+    "emphasis": []
   },
   {
     "id": "tafel-13",
@@ -296,7 +330,13 @@ export const tafelQuestions = [
     "sourcePdfPage": 6,
     "scriptPage": "3",
     "sourceWidth": 1191,
-    "sourceHeight": 710
+    "sourceHeight": 710,
+    "emphasis": [
+      "automatisch",
+      "Niemand",
+      "Einkommen",
+      "Bedarf"
+    ]
   },
   {
     "id": "tafel-14",
@@ -319,7 +359,8 @@ export const tafelQuestions = [
     "sourcePdfPage": 6,
     "scriptPage": "8",
     "sourceWidth": 1191,
-    "sourceHeight": 250
+    "sourceHeight": 250,
+    "emphasis": []
   },
   {
     "id": "tafel-15",
@@ -342,7 +383,10 @@ export const tafelQuestions = [
     "sourcePdfPage": 6,
     "scriptPage": "5",
     "sourceWidth": 1191,
-    "sourceHeight": 408
+    "sourceHeight": 408,
+    "emphasis": [
+      "Beschäftigte und Arbeitgeber"
+    ]
   },
   {
     "id": "tafel-16",
@@ -365,7 +409,8 @@ export const tafelQuestions = [
     "sourcePdfPage": 7,
     "scriptPage": "8–9",
     "sourceWidth": 1191,
-    "sourceHeight": 450
+    "sourceHeight": 450,
+    "emphasis": []
   },
   {
     "id": "tafel-17",
@@ -388,7 +433,10 @@ export const tafelQuestions = [
     "sourcePdfPage": 7,
     "scriptPage": "23",
     "sourceWidth": 1191,
-    "sourceHeight": 451
+    "sourceHeight": 451,
+    "emphasis": [
+      "direkt mit der Kasse abgerechnet"
+    ]
   },
   {
     "id": "tafel-18",
@@ -411,7 +459,8 @@ export const tafelQuestions = [
     "sourcePdfPage": 7,
     "scriptPage": "18",
     "sourceWidth": 1191,
-    "sourceHeight": 319
+    "sourceHeight": 319,
+    "emphasis": []
   },
   {
     "id": "tafel-19",
@@ -434,7 +483,8 @@ export const tafelQuestions = [
     "sourcePdfPage": 7,
     "scriptPage": "19–20",
     "sourceWidth": 1191,
-    "sourceHeight": 467
+    "sourceHeight": 467,
+    "emphasis": []
   },
   {
     "id": "tafel-20",
@@ -457,7 +507,11 @@ export const tafelQuestions = [
     "sourcePdfPage": 8,
     "scriptPage": "9; Beispiel in deinen Notizen",
     "sourceWidth": 1191,
-    "sourceHeight": 447
+    "sourceHeight": 447,
+    "emphasis": [
+      "80 % des Kassentarifs",
+      "höchstens die bezahlten Kosten"
+    ]
   },
   {
     "id": "tafel-21",
@@ -480,7 +534,10 @@ export const tafelQuestions = [
     "sourcePdfPage": 8,
     "scriptPage": "24",
     "sourceWidth": 1191,
-    "sourceHeight": 294
+    "sourceHeight": 294,
+    "emphasis": [
+      "In der Regel zwei Jahre"
+    ]
   },
   {
     "id": "tafel-22",
@@ -488,9 +545,9 @@ export const tafelQuestions = [
     "sourceNumber": 22,
     "topic": "tafel-honorar",
     "question": "Was enthält Position 1 und wann ist sie verrechenbar?",
-    "answer": "Beratung inklusive Untersuchung der Mundhöhle. In der Regel erst sechs Monate nach der letzten verrechneten Leistung; früher nur mit besonderer Begründung. Nicht zusätzlich zu einer anschließenden Vertragsleistung. Ausnahme: Kinder bis zum vollendeten 7. Lebensjahr bei Füllungstherapie in derselben Sitzung.",
+    "answer": "Beratung inklusive Untersuchung der Mundhöhle.\nIn der Regel erst sechs Monate nach der letzten verrechneten Leistung; früher nur mit besonderer Begründung.\nNicht zusätzlich zu einer anschließenden Vertragsleistung.\nAusnahme: Kinder bis zum vollendeten 7. Lebensjahr bei Füllungstherapie in derselben Sitzung.",
     "choices": [
-      "Beratung inklusive Untersuchung der Mundhöhle. In der Regel erst sechs Monate nach der letzten verrechneten Leistung; früher nur mit besonderer Begründung. Nicht zusätzlich zu einer anschließenden Vertragsleistung. Ausnahme: Kinder bis zum vollendeten 7. Lebensjahr bei Füllungstherapie in derselben Sitzung.",
+      "Beratung inklusive Untersuchung der Mundhöhle.\nIn der Regel erst sechs Monate nach der letzten verrechneten Leistung; früher nur mit besonderer Begründung.\nNicht zusätzlich zu einer anschließenden Vertragsleistung.\nAusnahme: Kinder bis zum vollendeten 7. Lebensjahr bei Füllungstherapie in derselben Sitzung.",
       "Nur eine Beratung ohne Untersuchung; sie ist bei jedem Besuch zusätzlich verrechenbar.",
       "Nur ein Röntgenbild; einmal monatlich abrechenbar.",
       "Nur eine Zahnreinigung; ausschließlich für Erwachsene."
@@ -503,7 +560,12 @@ export const tafelQuestions = [
     "sourcePdfPage": 8,
     "scriptPage": "23",
     "sourceWidth": 1191,
-    "sourceHeight": 445
+    "sourceHeight": 445,
+    "emphasis": [
+      "sechs Monate nach der letzten verrechneten Leistung",
+      "Nicht zusätzlich",
+      "Ausnahme:"
+    ]
   },
   {
     "id": "tafel-23",
@@ -511,9 +573,9 @@ export const tafelQuestions = [
     "sourceNumber": 23,
     "topic": "tafel-honorar",
     "question": "Wann darf Position 3 (Anästhesie) verrechnet werden?",
-    "answer": "Bei Vitalexstirpation oder Vitalamputation, also Entfernung von lebendem Zahnmark, sowie in begründeten Ausnahmefällen. Das Injektionsmittel ist enthalten. Bei Zahnentfernung und chirurgischen Eingriffen ist die Anästhesie bereits enthalten; eine Füllung allein reicht in der Regel nicht als Begründung.",
+    "answer": "Bei Vitalexstirpation oder Vitalamputation, also Entfernung von lebendem Zahnmark, sowie in begründeten Ausnahmefällen.\nDas Injektionsmittel ist enthalten.\nBei Zahnentfernung und chirurgischen Eingriffen ist die Anästhesie bereits enthalten.\nEine Füllung allein reicht in der Regel nicht als Begründung.",
     "choices": [
-      "Bei Vitalexstirpation oder Vitalamputation, also Entfernung von lebendem Zahnmark, sowie in begründeten Ausnahmefällen. Das Injektionsmittel ist enthalten. Bei Zahnentfernung und chirurgischen Eingriffen ist die Anästhesie bereits enthalten; eine Füllung allein reicht in der Regel nicht als Begründung.",
+      "Bei Vitalexstirpation oder Vitalamputation, also Entfernung von lebendem Zahnmark, sowie in begründeten Ausnahmefällen.\nDas Injektionsmittel ist enthalten.\nBei Zahnentfernung und chirurgischen Eingriffen ist die Anästhesie bereits enthalten.\nEine Füllung allein reicht in der Regel nicht als Begründung.",
       "Immer zusätzlich zu jeder Zahnentfernung.",
       "Immer zusätzlich zu jeder Füllung ohne Begründung.",
       "Nur für das Injektionsmittel, niemals für die Betäubung selbst."
@@ -526,7 +588,12 @@ export const tafelQuestions = [
     "sourcePdfPage": 8,
     "scriptPage": "23",
     "sourceWidth": 1191,
-    "sourceHeight": 501
+    "sourceHeight": 501,
+    "emphasis": [
+      "Vitalexstirpation oder Vitalamputation",
+      "in begründeten Ausnahmefällen",
+      "bereits enthalten"
+    ]
   },
   {
     "id": "tafel-24",
@@ -549,7 +616,11 @@ export const tafelQuestions = [
     "sourcePdfPage": 9,
     "scriptPage": "22",
     "sourceWidth": 1191,
-    "sourceHeight": 482
+    "sourceHeight": 482,
+    "emphasis": [
+      "IOTN 4 oder 5",
+      "vor dem 18. Geburtstag"
+    ]
   },
   {
     "id": "tafel-25",
@@ -572,7 +643,11 @@ export const tafelQuestions = [
     "sourcePdfPage": 9,
     "scriptPage": "24",
     "sourceWidth": 1191,
-    "sourceHeight": 614
+    "sourceHeight": 614,
+    "emphasis": [
+      "mindestens ein",
+      "mindestens zwei"
+    ]
   },
   {
     "id": "tafel-26",
@@ -595,7 +670,11 @@ export const tafelQuestions = [
     "sourcePdfPage": 9,
     "scriptPage": "29",
     "sourceWidth": 1191,
-    "sourceHeight": 590
+    "sourceHeight": 590,
+    "emphasis": [
+      "pro Quadrant",
+      "Anästhesie und Injektionsmittel"
+    ]
   },
   {
     "id": "tafel-27",
@@ -618,7 +697,12 @@ export const tafelQuestions = [
     "sourcePdfPage": 10,
     "scriptPage": "27",
     "sourceWidth": 1191,
-    "sourceHeight": 996
+    "sourceHeight": 996,
+    "emphasis": [
+      "10 bis unter 18 Jahre",
+      "mindestens sechs Monate Abstand",
+      "weitergebildete Prophylaxeassistenz (PAss)"
+    ]
   },
   {
     "id": "tafel-28",
@@ -641,7 +725,10 @@ export const tafelQuestions = [
     "sourcePdfPage": 10,
     "scriptPage": "23 und 29",
     "sourceWidth": 1191,
-    "sourceHeight": 378
+    "sourceHeight": 378,
+    "emphasis": [
+      "nicht extra verrechnet"
+    ]
   },
   {
     "id": "tafel-29",
@@ -664,7 +751,11 @@ export const tafelQuestions = [
     "sourcePdfPage": 10,
     "scriptPage": "29",
     "sourceWidth": 1191,
-    "sourceHeight": 312
+    "sourceHeight": 312,
+    "emphasis": [
+      "Vor der Entfernung",
+      "Röntgenbild"
+    ]
   },
   {
     "id": "tafel-30",
@@ -687,6 +778,11 @@ export const tafelQuestions = [
     "sourcePdfPage": 11,
     "scriptPage": "23 und 29",
     "sourceWidth": 1191,
-    "sourceHeight": 1171
+    "sourceHeight": 1171,
+    "emphasis": [
+      "einfache Zahnentfernung",
+      "operative Entfernung",
+      "nicht durchgebrochenen"
+    ]
   }
 ];

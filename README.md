@@ -58,3 +58,7 @@ Die Quellenangabe steht an jeder Karte. Im SV-PDF wurden zusätzliche handschrif
 Die vereinfachten Trägerzuordnungen auf Seite 4 wurden präzisiert: Selbständige sind nicht allgemein bei der PVA pensionsversichert; geringfügige Beschäftigung alleine begründet keine automatische Krankenversicherung. Bei Wahlzahnärzten beziehen sich die 80 Prozent im Skript auf die entsprechenden Kassentarife, nicht die gesamte Privatrechnung. Die Arbeitgeberbestätigung enthält keine konkrete Diagnose; die Meldung an den Krankenversicherungsträger kann medizinische Angaben enthalten.
 
 Siehe auch `QUELLEN.md` sowie „Inhalte & Quellen“ in der App.
+
+## Lernmarkierungen
+
+Die 30 Tafelfragen verwenden wenige redaktionell ausgewählte Unterstreichungen in den Antworten. Kurze gleichwertige Aufzählungen bleiben ohne Markierung. Die Hervorhebung erscheint in Vorschau, Kartenübersicht, aufgeklappter Karte und nach der Quiz-Auflösung. Die Antwortauswahl im Quiz bleibt ohne Lösungshinweise. Fragen 22 und 23 sind in einzelne Regeln gegliedert; Inhalt, Nummern und gespeicherte IDs bleiben erhalten.

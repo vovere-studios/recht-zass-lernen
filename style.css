@@ -811,3 +811,7 @@ body{overflow-x:clip}
 @media(max-width:600px){.topic-grid{grid-template-columns:1fr}}
 
 .source-original{display:inline-flex;align-items:center;gap:8px;margin-top:16px}.source-original svg{width:16px;height:16px}
+
+/* Quiet study emphasis; it never changes the answer wording. */
+.answer-copy{white-space:pre-line}
+.study-key{font-weight:inherit;text-decoration-line:underline;text-decoration-color:currentColor;text-decoration-thickness:.075em;text-underline-offset:.19em;text-decoration-skip-ink:auto}
