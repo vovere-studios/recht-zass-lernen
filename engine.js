@@ -100,5 +100,5 @@ export function cleanState(raw, validIds) {
  session={mode:s.mode,ordering:s.ordering==='sorted'?'sorted':'mixed',kind:s.mode==='quiz'&&s.kind==='exam'?'exam':'practice',ids,queue,done,original:s.original===true,attempts:number(s.attempts),errors:number(s.errors),skips:number(s.skips),answer:['wrong','correct'].includes(s.answer)?s.answer:null,choiceOrder:order(s.choiceOrder),selected:choice(s.selected),history,reviewIndex:Number.isInteger(s.reviewIndex)&&s.reviewIndex>=0&&s.reviewIndex<history.length?s.reviewIndex:null,results,ended:s.ended===true,started:number(s.started)||Date.now(),endedAt:number(s.endedAt)};
  }
  }
- return {version:VERSION,simpleLanguage:obj.simpleLanguage===true,roundOrder:obj.roundOrder==='sorted'?'sorted':'mixed',known:array('known'),bookmarks:array('bookmarks'),stats,session,theme:['system','light','dark'].includes(obj.theme)?obj.theme:'system',motion:obj.motion!==false};
+ return {version:VERSION,simpleLanguage:obj.simpleLanguage===true,extendedQuestions:obj.extendedQuestions===true,roundOrder:obj.roundOrder==='sorted'?'sorted':'mixed',known:array('known'),bookmarks:array('bookmarks'),stats,session,theme:['system','light','dark'].includes(obj.theme)?obj.theme:'system',motion:obj.motion!==false};
 }

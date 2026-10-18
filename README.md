@@ -4,20 +4,23 @@ Eine responsive Lernseite für die Prüfung am 4. November 2026. Browserseitige 
 
 ## Lernstoff
 
-69 Lernkarten, aufgeteilt in zwölf kleine Themen:
+Standardmäßig **50 Fragen** in zwei Bereichen:
 
-- **Recht & Verantwortung:** 20 Fragen aus den fünf Prüfungsfotos mit ursprünglicher Frage und Antwort; das Quiz verwendet die ursprüngliche Antwortauswahl.
-- **Sozialversicherung:** 34 Karten zu den lesbaren Themen der ersten Tafel und den dazugehörigen Skriptseiten.
-- **Ordinationsalltag:** 15 Karten zur zweiten Tafel: e-card, Admin-Karte, Überweisung, e-Rezept und Krankmeldung.
+- **Recht & Verantwortung:** die bisherigen 20 Fotofragen, standardmäßig im Prüfungswortlaut.
+- **Tafelfragen & Abrechnung:** genau die 30 nummerierten Fragen aus den neuen Screenshots vom 18. Oktober. Kurze Antworten, Skriptseiten und je ein markierter Quellenausschnitt.
 
-Die vollständigen PDF-Skripten sind **nicht** als vollständiger Fragenkatalog eingearbeitet. Der unklare Tafeleintrag „GV + EV + SV“ wird auf Nutzerwunsch ausgelassen und nach dem nächsten Unterricht ergänzt. Der erste Stand konzentriert sich auf Fotos und Tafeln. Die Original-PDFs und Fotos werden nicht veröffentlicht.
+Die bisherigen Kategorien **Sozialversicherung** (34) und **Ordinationsalltag** (15) bleiben erhalten und werden nur mit **Einstellungen → Erweiterte Fragen** angezeigt. Dann sind 99 Fragen sichtbar. Die Einstellung gilt für Übersicht, Themen, Suche, Fortschritt und Rundenauswahl. Ausgeblendete Lernstände werden nicht gelöscht. Eine laufende Runde mit ausgeblendeten Fragen bleibt gespeichert; vor dem Ersetzen wird wie gewohnt gefragt.
+
+Die neue Kategorie öffnet eine **Vorschau ohne Bewertung** mit Vor/Zurück, Kurzantwort und markiertem Beleg. Der Beleg ist vergrößerbar. Alle 30 Fragen sind zusätzlich aufklappbar aufgelistet und können als Karten- oder Quizrunde gelernt werden. Die Vorschau verändert den Lernstand nicht.
+
+GV, EV und SV sind durch die neuen Unterlagen als **Gesamtvertrag, Einzelvertrag und Stellvertretung** geklärt. Nur Fragen 1–30 aus den neun Screenshots sind neu hinzugefügt; andere markierte Abschnitte und nur auf der Tafel stehende Fragen sind ausgeschlossen. Die neuen Texte orientieren sich am markierten Skript von 2024, mit knappen sachlichen Präzisierungen. Das vollständige PDF wird nicht veröffentlicht; eingebunden sind ausschließlich die ausgewählten Belegausschnitte.
 
 ## Lernen
 
 Standardmäßig zeigen Themen, Karteikarten und Quiz bei den 20 Fotofragen den Prüfungswortlaut. Die einfache Fassung kann ausschließlich in den Einstellungen nach zwei Bestätigungen aktiviert werden. Es erscheint immer nur eine Fassung. Zurück zum Prüfungswortlaut geht es mit einer Aktion. Die übrigen 49 Fragen bleiben unverändert, da hierfür kein fotografierter Prüfungswortlaut vorliegt. Bestehende Runden übernehmen die Einstellung ohne Änderung ihrer Wertung; Antwortpositionen werden entsprechend zugeordnet.
 
 1. Bereich oder kleine Themenportion wählen.
-   Für Karteikarten und Quiz ist „Nach Nummer“ oder „Gemischt“ wählbar. Jede Frage hat eine feste Nummer: die 20 Fotofragen genau 1–20, Sozialversicherung 21–54, Ordinationsalltag 55–69. Die Nummer bleibt bei Filtern, Rückblick und Wiederholung gleich. „Nach Nummer“ beginnt aufsteigend; übersprungene und im Übungsmodus falsche Fragen werden später wieder aufgenommen. Die Antwortauswahl im Quiz wird unabhängig davon weiterhin gemischt. Die gewählte Reihenfolge bleibt für weitere Runden gespeichert.
+   Für Karteikarten und Quiz ist „Nach Nummer“ oder „Gemischt“ wählbar. Jede Frage hat eine feste Nummer: die 20 Fotofragen genau 1–20, Sozialversicherung 21–54, Ordinationsalltag 55–69. Die neuen Fragen werden als „Tafelfrage 1–30“ bezeichnet (interne Sortiernummern 70–99), damit ihre Nummern exakt zu den neuen Screenshots passen. Die Nummer bleibt bei Filtern, Rückblick und Wiederholung gleich. „Nach Nummer“ beginnt aufsteigend; übersprungene und im Übungsmodus falsche Fragen werden später wieder aufgenommen. Die Antwortauswahl im Quiz wird unabhängig davon weiterhin gemischt. Die gewählte Reihenfolge bleibt für weitere Runden gespeichert.
 2. Karte im Kopf beantworten und durch Antippen aufklappen. „Kann ich“ oder „Noch einmal“ wählen. Alternativ nach rechts wischen/ziehen für „Kann ich“, nach links für „Noch einmal“. Eine Vorschau zeigt die Entscheidung; kleine oder abgebrochene Gesten kehren zurück. Vertikales Scrollen und Pinch-Zoom bleiben möglich.
 3. „Überspringen“ schiebt eine Karte oder Quizfrage ans Ende, ohne sie als gelernt oder falsch zu zählen. „Zurück“ zeigt den bisherigen Verlauf mit unveränderter Wertung. Eine übersprungene, noch offene Frage lässt sich aus dem Rückblick wieder aufnehmen.
 4. Im Quiz eine von vier Antworten wählen. Die Auswahl wird gemischt. Im Modus **Üben** zeigt eine falsche Antwort die Lösung samt Erklärung und kommt später wieder. Diese Runde endet, wenn jede Frage einmal richtig beantwortet wurde.

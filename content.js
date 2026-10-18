@@ -1,3 +1,4 @@
+import {tafelQuestions} from './tafel.js?v=11';
 export const questions = [
   {
     "id": "recht-01",
@@ -1430,4 +1431,4 @@ export const questions = [
     "originalChoices": null,
     "originalCorrect": null
   }
-];
+].concat(tafelQuestions);

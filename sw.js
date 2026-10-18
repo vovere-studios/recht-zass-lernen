@@ -1,5 +1,5 @@
-const CACHE='klar-recht-v10-wording';
-const FILES=['./','./index.html','./style.css?v=10','./app.js?v=10','./content.js?v=10','./engine.js?v=10','./motion.js?v=10','./gestures.js?v=10','./manifest.webmanifest','./assets/icon.svg','./assets/icon-192.png','./assets/icon-512.png'];
+const CACHE='klar-recht-v11-tafel';
+const FILES=['./','./index.html','./style.css?v=11','./app.js?v=11','./content.js?v=11','./tafel.js?v=11','./engine.js?v=11','./motion.js?v=11','./gestures.js?v=11','./manifest.webmanifest','./assets/icon.svg','./assets/icon-192.png','./assets/icon-512.png',...Array.from({length:30},(_,i)=>`./assets/tafel/frage-${String(i+1).padStart(2,'0')}.webp`)];
 self.addEventListener('install',event=>event.waitUntil(caches.open(CACHE).then(cache=>cache.addAll(FILES))));
 self.addEventListener('activate',event=>event.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(k=>k.startsWith('klar-recht-')&&k!==CACHE).map(k=>caches.delete(k))))));
 self.addEventListener('fetch',event=>{if(event.request.method!=='GET'||new URL(event.request.url).origin!==self.location.origin)return;event.respondWith(fetch(event.request).then(response=>{if(response.ok){const copy=response.clone();caches.open(CACHE).then(cache=>cache.put(event.request,copy));}return response;}).catch(()=>caches.match(event.request).then(response=>response||(event.request.mode==='navigate'?caches.match('./index.html'):Response.error()))));});
