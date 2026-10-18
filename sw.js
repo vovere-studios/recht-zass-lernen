@@ -1,5 +1,5 @@
-const CACHE='klar-recht-v12-tafel-order';
-const FILES=['./','./index.html','./style.css?v=12','./app.js?v=12','./content.js?v=12','./tafel.js?v=12','./engine.js?v=12','./motion.js?v=12','./gestures.js?v=12','./manifest.webmanifest','./assets/icon.svg','./assets/icon-192.png','./assets/icon-512.png',...Array.from({length:30},(_,i)=>`./assets/tafel/frage-${String(i+1).padStart(2,'0')}.webp`)];
+const CACHE='klar-recht-v13-tafel-restored';
+const FILES=['./','./index.html','./style.css?v=13','./app.js?v=13','./content.js?v=13','./tafel.js?v=13','./engine.js?v=13','./motion.js?v=13','./gestures.js?v=13','./manifest.webmanifest','./assets/icon.svg','./assets/icon-192.png','./assets/icon-512.png',...Array.from({length:30},(_,i)=>`./assets/tafel/frage-${String(i+1).padStart(2,'0')}.webp`)];
 self.addEventListener('install',event=>event.waitUntil(caches.open(CACHE).then(cache=>cache.addAll(FILES))));
 self.addEventListener('activate',event=>event.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(k=>k.startsWith('klar-recht-')&&k!==CACHE).map(k=>caches.delete(k))))));
 self.addEventListener('fetch',event=>{if(event.request.method!=='GET'||new URL(event.request.url).origin!==self.location.origin)return;event.respondWith(fetch(event.request).then(response=>{if(response.ok){const copy=response.clone();caches.open(CACHE).then(cache=>cache.put(event.request,copy));}return response;}).catch(()=>caches.match(event.request).then(response=>response||(event.request.mode==='navigate'?caches.match('./index.html'):Response.error()))));});

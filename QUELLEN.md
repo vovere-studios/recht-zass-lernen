@@ -111,42 +111,42 @@ Die 20 Fotofragen erscheinen standardmäßig mit ursprünglicher Frage und Antwo
 
 Quelle: vom Nutzer bereitgestellte `FINAL_Skriptum_Abrechnung_Sozialversicherung_2024-1.pdf`. Nur die 30 in den Screenshots nummerierten Fragen werden ergänzt. Die markierten Collagen stehen auf PDF-Seiten 3–11. Zu jeder Karte wird der passende Ausschnitt eingebunden. Skriptseite bezeichnet die gedruckte Seite; PDF-Seite die Position im neuen, erweiterten Dokument. Nicht mit den Seitenverweisen auf das ältere PDF bei den 49 Zusatzkarten verwechseln.
 
-| Neue Tafelfrage | Ursprüngliche Foto-Nr. | Frage | Skriptseite | PDF-Seite Originaltext | PDF-Seite markierte Collage |
-|---|---|---|---|---|---|
-| 1 | 1 | Welche Vorteile hat das e-Rezept? | 14 | 31 | 3 |
-| 2 | 2 | Was bedeuten Gesamtvertrag, Einzelvertrag und Stellvertretung? Nenne Beispiele. | 9–10; Stellvertretung im markierten Auszug | 26 | 3 |
-| 3 | 3 | Was ist die e-card, welche Angaben hat sie und wann wird sie gesteckt? | 11 | 28 | 3 |
-| 4 | 4 | Was ist die Admin-Karte (früher O-Card)? | 13 | 30 | 3 |
-| 5 | 5 | Welche Angaben stehen auf einer Überweisung? | 16 | 33 | 4 |
-| 6 | 6 | Welche Formulare braucht eine Zahnarztpraxis? | 14 | 31 | 4 |
-| 7 | 7 | Wer stellt eine Krankmeldung aus und was steht darin? | 17 | 34 | 4 |
-| 8 | 14 | In welchen drei Bereichen leistet die Krankenversicherung? | 8 | 25 | 6 |
-| 9 | 9 | Welche Leistungen bietet die Krankenversicherung? Nenne Beispiele. | 8 | 25 | 5 |
-| 10 | 10 | Welche fünf Sozialversicherungsträger gibt es? | 7 | 24 | 5 |
-| 11 | 12 | Welche drei Zweige hat die Sozialversicherung? | 6 | 23 | 6 |
-| 12 | 11 | Welche Zweige führen die Träger und wie sind sie organisiert? | 7 | 24 | 5 |
-| 13 | 8 | Wovon hängt der Versicherungsträger ab und wer ist wo versichert? | 4 | 20 | 4 |
-| 14 | 13 | Was bedeuten Pflichtversicherung, keine Risikoauslese und Solidaritätsprinzip? | 3 | 19 | 6 |
-| 15 | 15 | Was ist der Sozialversicherungsbeitrag und was wird gemeinsam eingehoben? | 5 | 22 | 6 |
-| 16 | 16 | Wo finden Zahnbehandlungen statt? | 8–9 | 25 | 7 |
-| 17 | 17 | Was regelt die Honorarordnung? | 23 | 40 | 7 |
-| 18 | 18 | Welche Arten zahnärztlicher Leistungen sind abrechenbar? | 18 | 35 | 7 |
-| 19 | 19 | Nenne Beispiele für konservierende, chirurgische und Zahnersatz-Leistungen. | 19–20 | 37 | 7 |
-| 20 | 20 | Wie funktioniert die Kostenerstattung beim Wahlzahnarzt? Nenne das Skript-Beispiel. | 9; Beispiel in deinen Notizen | 26 | 8 |
-| 21 | 21 | Wie lange soll eine Füllung an bleibenden Zähnen halten? | 24 | 42 | 8 |
-| 22 | 22 | Was enthält Position 1 und wann ist sie verrechenbar? | 23 | 40 | 8 |
-| 23 | 23 | Wann darf Position 3 (Anästhesie) verrechnet werden? | 23 | 40 | 8 |
-| 24 | 24 | Was sind die Voraussetzungen für die Gratiszahnspange? | 22 | 39 | 9 |
-| 25 | 25 | Wann ist Position 9 (Aufbau mit Höckerdeckung) verrechenbar? | 24 | 42 | 9 |
-| 26 | 26 | Was enthält Position 34 und wie wird sie verrechnet? | 29 | 47 | 9 |
-| 27 | 27 | Für wen gilt Position 65 und was gehört zur Mundhygiene? | 27 | 45 | 10 |
-| 28 | 28 | Bei welchen Leistungen ist die Anästhesie bereits enthalten? | 23 und 29 | 40 | 10 |
-| 29 | 29 | Muss ein retinierter Zahn vor dem Eingriff dokumentiert sein? | 29 | 47 | 10 |
-| 30 | 30 | Was unterscheidet Position 2, 30 und 27? | 23 und 29 | 47 | 11 |
+| Tafelfrage | Frage | Skriptseite | PDF-Seite Originaltext | PDF-Seite markierte Collage |
+|---|---|---|---|---|
+| 1 | Welche Vorteile hat das e-Rezept? | 14 | 31 | 3 |
+| 2 | Was bedeuten Gesamtvertrag, Einzelvertrag und Stellvertretung? Nenne Beispiele. | 9–10; Stellvertretung im markierten Auszug | 26 | 3 |
+| 3 | Was ist die e-card, welche Angaben hat sie und wann wird sie gesteckt? | 11 | 28 | 3 |
+| 4 | Was ist die Admin-Karte (früher O-Card)? | 13 | 30 | 3 |
+| 5 | Welche Angaben stehen auf einer Überweisung? | 16 | 33 | 4 |
+| 6 | Welche Formulare braucht eine Zahnarztpraxis? | 14 | 31 | 4 |
+| 7 | Wer stellt eine Krankmeldung aus und was steht darin? | 17 | 34 | 4 |
+| 8 | Wovon hängt der Versicherungsträger ab und wer ist wo versichert? | 4 | 20 | 4 |
+| 9 | Welche Leistungen bietet die Krankenversicherung? Nenne Beispiele. | 8 | 25 | 5 |
+| 10 | Welche fünf Sozialversicherungsträger gibt es? | 7 | 24 | 5 |
+| 11 | Welche Zweige führen die Träger und wie sind sie organisiert? | 7 | 24 | 5 |
+| 12 | Welche drei Zweige hat die Sozialversicherung? | 6 | 23 | 6 |
+| 13 | Was bedeuten Pflichtversicherung, keine Risikoauslese und Solidaritätsprinzip? | 3 | 19 | 6 |
+| 14 | In welchen drei Bereichen leistet die Krankenversicherung? | 8 | 25 | 6 |
+| 15 | Was ist der Sozialversicherungsbeitrag und was wird gemeinsam eingehoben? | 5 | 22 | 6 |
+| 16 | Wo finden Zahnbehandlungen statt? | 8–9 | 25 | 7 |
+| 17 | Was regelt die Honorarordnung? | 23 | 40 | 7 |
+| 18 | Welche Arten zahnärztlicher Leistungen sind abrechenbar? | 18 | 35 | 7 |
+| 19 | Nenne Beispiele für konservierende, chirurgische und Zahnersatz-Leistungen. | 19–20 | 37 | 7 |
+| 20 | Wie funktioniert die Kostenerstattung beim Wahlzahnarzt? Nenne das Skript-Beispiel. | 9; Beispiel in deinen Notizen | 26 | 8 |
+| 21 | Wie lange soll eine Füllung an bleibenden Zähnen halten? | 24 | 42 | 8 |
+| 22 | Was enthält Position 1 und wann ist sie verrechenbar? | 23 | 40 | 8 |
+| 23 | Wann darf Position 3 (Anästhesie) verrechnet werden? | 23 | 40 | 8 |
+| 24 | Was sind die Voraussetzungen für die Gratiszahnspange? | 22 | 39 | 9 |
+| 25 | Wann ist Position 9 (Aufbau mit Höckerdeckung) verrechenbar? | 24 | 42 | 9 |
+| 26 | Was enthält Position 34 und wie wird sie verrechnet? | 29 | 47 | 9 |
+| 27 | Für wen gilt Position 65 und was gehört zur Mundhygiene? | 27 | 45 | 10 |
+| 28 | Bei welchen Leistungen ist die Anästhesie bereits enthalten? | 23 und 29 | 40 | 10 |
+| 29 | Muss ein retinierter Zahn vor dem Eingriff dokumentiert sein? | 29 | 47 | 10 |
+| 30 | Was unterscheidet Position 2, 30 und 27? | 23 und 29 | 47 | 11 |
 
 ### Präzisierungen der neuen Karten
 
-- Tafelfrage 13 (vormals 8): Die fehlerhafte pauschale PVA-Zuordnung Selbständiger wird nicht übernommen; geringfügige Beschäftigung allein begründet grundsätzlich nur Unfallversicherung. [Offizielle Information](https://www.sozialversicherung.gv.at/cdscontent/?contentid=10007.870421&portal=oegkportal).
+- Tafelfrage 8: Die fehlerhafte pauschale PVA-Zuordnung Selbständiger wird nicht übernommen; geringfügige Beschäftigung allein begründet grundsätzlich nur Unfallversicherung. [Offizielle Information](https://www.sozialversicherung.gv.at/cdscontent/?contentid=10007.870421&portal=oegkportal).
 - Tafelfrage 15: Die drei klassischen Versicherungszweige und die zusätzlich gemeinsam eingehobenen Umlagen werden unterschieden.
 - Tafelfrage 20: 80 Prozent beziehen sich grundsätzlich auf den Kassentarif, höchstens die tatsächlichen Kosten. Das SÄT-Beispiel ist ausdrücklich ein Lernbeispiel aus den Unterlagen von 2024, keine pauschale aktuelle Abrechnungszusage. [ÖGK Kostenerstattung](https://www.sozialversicherung.gv.at/cdscontent/?contentid=10007.870516&portal=oegkportal).
 - Tafelfrage 24: Die handschriftlichen „10–18“ sind keine allgemeine Altersvoraussetzung. Entscheidend für die Hauptbehandlung sind IOTN 4/5 und Beginn vor dem 18. Geburtstag. [Offizielle Voraussetzungen](https://www.sozialversicherung.gv.at/cdscontent/?contentid=10007.840485).
