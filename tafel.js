@@ -166,9 +166,9 @@ export const tafelQuestions = [
     "sourceNumber": 8,
     "topic": "tafel-sv",
     "question": "Wovon hängt der Versicherungsträger ab und wer ist wo versichert?",
-    "answer": "Vor allem von der beruflichen Tätigkeit.\nÖGK: meist Arbeitnehmer, Arbeitslose und Pensionisten. SVS: Selbständige und Bauern. BVAEB: z. B. öffentlich Bedienstete, Eisenbahn und Bergbau.\nAUVA: Unfallversicherung z. B. für Arbeitnehmer, Kindergartenkinder, Schüler und Studierende. PV/PVA: Pensionen vor allem für Arbeitnehmer.\nAngehörige können unter Voraussetzungen mitversichert sein.",
+    "answer": "Vor allem von der beruflichen Tätigkeit.\nÖGK: meist Arbeitnehmer, Arbeitslose und Pensionisten. SVS: Selbständige und Bauern. BVAEB: z. B. öffentlich Bedienstete, Eisenbahn und Bergbau.\nAUVA: Unfallversicherung z. B. für Arbeitnehmer, Kindergartenkinder, Schüler und Studierende. PV/PVA: Pensionen vor allem für Arbeitnehmer.\nAngehörige können unter Voraussetzungen in der Krankenversicherung mitversichert sein.",
     "choices": [
-      "Vor allem von der beruflichen Tätigkeit.\nÖGK: meist Arbeitnehmer, Arbeitslose und Pensionisten. SVS: Selbständige und Bauern. BVAEB: z. B. öffentlich Bedienstete, Eisenbahn und Bergbau.\nAUVA: Unfallversicherung z. B. für Arbeitnehmer, Kindergartenkinder, Schüler und Studierende. PV/PVA: Pensionen vor allem für Arbeitnehmer.\nAngehörige können unter Voraussetzungen mitversichert sein.",
+      "Vor allem von der beruflichen Tätigkeit.\nÖGK: meist Arbeitnehmer, Arbeitslose und Pensionisten. SVS: Selbständige und Bauern. BVAEB: z. B. öffentlich Bedienstete, Eisenbahn und Bergbau.\nAUVA: Unfallversicherung z. B. für Arbeitnehmer, Kindergartenkinder, Schüler und Studierende. PV/PVA: Pensionen vor allem für Arbeitnehmer.\nAngehörige können unter Voraussetzungen in der Krankenversicherung mitversichert sein.",
       "Jeder wählt seine Kasse frei. Alle Selbständigen sind bei der PVA krankenversichert.",
       "Nur das Alter entscheidet; Kinder sind immer bei der SVS.",
       "Nur der Wohnort entscheidet; alle Träger decken dieselben Personen und Zweige ab."
