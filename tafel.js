@@ -161,27 +161,28 @@ export const tafelQuestions = [
     "sourceHeight": 419
   },
   {
-    "id": "tafel-08",
+    "id": "tafel-14",
     "number": 77,
     "sourceNumber": 8,
     "topic": "tafel-sv",
-    "question": "Wovon hängt der Versicherungsträger ab und wer ist wo versichert?",
-    "answer": "Vor allem von der beruflichen Tätigkeit.\nÖGK: meist Arbeitnehmer, Arbeitslose und Pensionisten. SVS: Selbständige und Bauern. BVAEB: z. B. öffentlich Bedienstete, Eisenbahn und Bergbau.\nAUVA: Unfallversicherung z. B. für Arbeitnehmer, Kindergartenkinder, Schüler und Studierende. PV/PVA: Pensionen vor allem für Arbeitnehmer.\nAngehörige können unter Voraussetzungen in der Krankenversicherung mitversichert sein.",
+    "question": "In welchen drei Bereichen leistet die Krankenversicherung?",
+    "answer": "Vorsorge, Mutterschaft und Krankheit.",
     "choices": [
-      "Vor allem von der beruflichen Tätigkeit.\nÖGK: meist Arbeitnehmer, Arbeitslose und Pensionisten. SVS: Selbständige und Bauern. BVAEB: z. B. öffentlich Bedienstete, Eisenbahn und Bergbau.\nAUVA: Unfallversicherung z. B. für Arbeitnehmer, Kindergartenkinder, Schüler und Studierende. PV/PVA: Pensionen vor allem für Arbeitnehmer.\nAngehörige können unter Voraussetzungen in der Krankenversicherung mitversichert sein.",
-      "Jeder wählt seine Kasse frei. Alle Selbständigen sind bei der PVA krankenversichert.",
-      "Nur das Alter entscheidet; Kinder sind immer bei der SVS.",
-      "Nur der Wohnort entscheidet; alle Träger decken dieselben Personen und Zweige ab."
+      "Vorsorge, Mutterschaft und Krankheit.",
+      "Alter, Arbeitslosigkeit und Wohnbau.",
+      "Urlaub, Freizeit und Verkehr.",
+      "Nur Zahnbehandlung, Unfall und Pension."
     ],
     "correct": 0,
-    "source": "SV-Skript 2024 · Skriptseite 4 · PDF-Seite 20 · markierte Fragenseite 4",
-    "note": "Präzisierung zum Skript: Geringfügige Beschäftigung allein begründet grundsätzlich nur Unfallversicherung. Selbständige sind nicht allgemein bei der PVA pensionsversichert.",
+    "source": "SV-Skript 2024 · Skriptseite 8 · PDF-Seite 25 · markierte Fragenseite 6",
+    "note": "",
     "originalChoices": null,
-    "sourceImage": "assets/tafel/frage-08.webp",
-    "sourcePdfPage": 4,
-    "scriptPage": "4",
+    "sourceImage": "assets/tafel/frage-14.webp",
+    "sourcePdfPage": 6,
+    "scriptPage": "8",
     "sourceWidth": 1191,
-    "sourceHeight": 598
+    "sourceHeight": 250,
+    "originalSourceNumber": 14
   },
   {
     "id": "tafel-09",
@@ -230,32 +231,9 @@ export const tafelQuestions = [
     "sourceHeight": 385
   },
   {
-    "id": "tafel-11",
+    "id": "tafel-12",
     "number": 80,
     "sourceNumber": 11,
-    "topic": "tafel-sv",
-    "question": "Welche Zweige führen die Träger und wie sind sie organisiert?",
-    "answer": "ÖGK: Krankenversicherung.\nSVS und BVAEB: Kranken-, Unfall- und Pensionsversicherung.\nAUVA: Unfallversicherung. PV/PVA: Pensionsversicherung.\nAlle sind zentral organisiert, mit Hauptstelle in Wien und Landesstellen. BVAEB und AUVA haben auch Außenstellen.",
-    "choices": [
-      "ÖGK: Krankenversicherung.\nSVS und BVAEB: Kranken-, Unfall- und Pensionsversicherung.\nAUVA: Unfallversicherung. PV/PVA: Pensionsversicherung.\nAlle sind zentral organisiert, mit Hauptstelle in Wien und Landesstellen. BVAEB und AUVA haben auch Außenstellen.",
-      "Alle fünf Träger führen nur die Krankenversicherung und sind dezentral organisiert.",
-      "ÖGK: Pension. AUVA: Krankenversicherung. PV: Unfallversicherung.",
-      "Nur die SVS ist zentral organisiert; die anderen Träger sind private Vereine."
-    ],
-    "correct": 0,
-    "source": "SV-Skript 2024 · Skriptseite 7 · PDF-Seite 24 · markierte Fragenseite 5",
-    "note": "",
-    "originalChoices": null,
-    "sourceImage": "assets/tafel/frage-11.webp",
-    "sourcePdfPage": 5,
-    "scriptPage": "7",
-    "sourceWidth": 1191,
-    "sourceHeight": 755
-  },
-  {
-    "id": "tafel-12",
-    "number": 81,
-    "sourceNumber": 12,
     "topic": "tafel-sv",
     "question": "Welche drei Zweige hat die Sozialversicherung?",
     "answer": "Krankenversicherung, Unfallversicherung und Pensionsversicherung.",
@@ -273,12 +251,61 @@ export const tafelQuestions = [
     "sourcePdfPage": 6,
     "scriptPage": "6",
     "sourceWidth": 1191,
-    "sourceHeight": 319
+    "sourceHeight": 319,
+    "originalSourceNumber": 12
+  },
+  {
+    "id": "tafel-11",
+    "number": 81,
+    "sourceNumber": 12,
+    "topic": "tafel-sv",
+    "question": "Welche Zweige führen die Träger und wie sind sie organisiert?",
+    "answer": "ÖGK: Krankenversicherung.\nSVS und BVAEB: Kranken-, Unfall- und Pensionsversicherung.\nAUVA: Unfallversicherung. PV/PVA: Pensionsversicherung.\nAlle sind zentral organisiert, mit Hauptstelle in Wien und Landesstellen. BVAEB und AUVA haben auch Außenstellen.",
+    "choices": [
+      "ÖGK: Krankenversicherung.\nSVS und BVAEB: Kranken-, Unfall- und Pensionsversicherung.\nAUVA: Unfallversicherung. PV/PVA: Pensionsversicherung.\nAlle sind zentral organisiert, mit Hauptstelle in Wien und Landesstellen. BVAEB und AUVA haben auch Außenstellen.",
+      "Alle fünf Träger führen nur die Krankenversicherung und sind dezentral organisiert.",
+      "ÖGK: Pension. AUVA: Krankenversicherung. PV: Unfallversicherung.",
+      "Nur die SVS ist zentral organisiert; die anderen Träger sind private Vereine."
+    ],
+    "correct": 0,
+    "source": "SV-Skript 2024 · Skriptseite 7 · PDF-Seite 24 · markierte Fragenseite 5",
+    "note": "",
+    "originalChoices": null,
+    "sourceImage": "assets/tafel/frage-11.webp",
+    "sourcePdfPage": 5,
+    "scriptPage": "7",
+    "sourceWidth": 1191,
+    "sourceHeight": 755,
+    "originalSourceNumber": 11
+  },
+  {
+    "id": "tafel-08",
+    "number": 82,
+    "sourceNumber": 13,
+    "topic": "tafel-sv",
+    "question": "Wovon hängt der Versicherungsträger ab und wer ist wo versichert?",
+    "answer": "Vor allem von der beruflichen Tätigkeit.\nÖGK: meist Arbeitnehmer, Arbeitslose und Pensionisten. SVS: Selbständige und Bauern. BVAEB: z. B. öffentlich Bedienstete, Eisenbahn und Bergbau.\nAUVA: Unfallversicherung z. B. für Arbeitnehmer, Kindergartenkinder, Schüler und Studierende. PV/PVA: Pensionen vor allem für Arbeitnehmer.\nAngehörige können unter Voraussetzungen in der Krankenversicherung mitversichert sein.",
+    "choices": [
+      "Vor allem von der beruflichen Tätigkeit.\nÖGK: meist Arbeitnehmer, Arbeitslose und Pensionisten. SVS: Selbständige und Bauern. BVAEB: z. B. öffentlich Bedienstete, Eisenbahn und Bergbau.\nAUVA: Unfallversicherung z. B. für Arbeitnehmer, Kindergartenkinder, Schüler und Studierende. PV/PVA: Pensionen vor allem für Arbeitnehmer.\nAngehörige können unter Voraussetzungen in der Krankenversicherung mitversichert sein.",
+      "Jeder wählt seine Kasse frei. Alle Selbständigen sind bei der PVA krankenversichert.",
+      "Nur das Alter entscheidet; Kinder sind immer bei der SVS.",
+      "Nur der Wohnort entscheidet; alle Träger decken dieselben Personen und Zweige ab."
+    ],
+    "correct": 0,
+    "source": "SV-Skript 2024 · Skriptseite 4 · PDF-Seite 20 · markierte Fragenseite 4",
+    "note": "Präzisierung zum Skript: Geringfügige Beschäftigung allein begründet grundsätzlich nur Unfallversicherung. Selbständige sind nicht allgemein bei der PVA pensionsversichert.",
+    "originalChoices": null,
+    "sourceImage": "assets/tafel/frage-08.webp",
+    "sourcePdfPage": 4,
+    "scriptPage": "4",
+    "sourceWidth": 1191,
+    "sourceHeight": 598,
+    "originalSourceNumber": 8
   },
   {
     "id": "tafel-13",
-    "number": 82,
-    "sourceNumber": 13,
+    "number": 83,
+    "sourceNumber": 14,
     "topic": "tafel-sv",
     "question": "Was bedeuten Pflichtversicherung, keine Risikoauslese und Solidaritätsprinzip?",
     "answer": "Pflichtversicherung: Sie entsteht automatisch, wenn die gesetzlichen Voraussetzungen erfüllt sind.\nKeine Risikoauslese: Niemand wird wegen persönlicher Risiken abgelehnt.\nSolidarität: Beiträge richten sich vor allem nach dem Einkommen, Leistungen nach dem Bedarf.",
@@ -296,30 +323,8 @@ export const tafelQuestions = [
     "sourcePdfPage": 6,
     "scriptPage": "3",
     "sourceWidth": 1191,
-    "sourceHeight": 710
-  },
-  {
-    "id": "tafel-14",
-    "number": 83,
-    "sourceNumber": 14,
-    "topic": "tafel-sv",
-    "question": "In welchen drei Bereichen leistet die Krankenversicherung?",
-    "answer": "Vorsorge, Mutterschaft und Krankheit.",
-    "choices": [
-      "Vorsorge, Mutterschaft und Krankheit.",
-      "Alter, Arbeitslosigkeit und Wohnbau.",
-      "Urlaub, Freizeit und Verkehr.",
-      "Nur Zahnbehandlung, Unfall und Pension."
-    ],
-    "correct": 0,
-    "source": "SV-Skript 2024 · Skriptseite 8 · PDF-Seite 25 · markierte Fragenseite 6",
-    "note": "",
-    "originalChoices": null,
-    "sourceImage": "assets/tafel/frage-14.webp",
-    "sourcePdfPage": 6,
-    "scriptPage": "8",
-    "sourceWidth": 1191,
-    "sourceHeight": 250
+    "sourceHeight": 710,
+    "originalSourceNumber": 13
   },
   {
     "id": "tafel-15",

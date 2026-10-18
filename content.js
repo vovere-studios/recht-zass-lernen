@@ -1,4 +1,4 @@
-import {tafelQuestions} from './tafel.js?v=11';
+import {tafelQuestions} from './tafel.js?v=12';
 export const questions = [
   {
     "id": "recht-01",
