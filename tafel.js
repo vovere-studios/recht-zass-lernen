@@ -51,9 +51,9 @@ export const tafelQuestions = [
     "sourceNumber": 3,
     "topic": "tafel-form",
     "question": "Was ist die e-card, welche Angaben hat sie und wann wird sie gesteckt?",
-    "answer": "Eine persönliche Chipkarte. Angaben: Name, Titel, Foto, Versicherungsnummer, Kartenfolgenummer, NFC-Symbol und die Telefonnummern von e-card-Service und Gesundheitsberatung. Sie wird bei jeder Konsultation in der Ordination gesteckt.",
+    "answer": "Eine persönliche Chipkarte. Angaben: Name, Titel, Foto, Versicherungsnummer, Kartenfolgenummer, NFC-Symbol und die Telefonnummern von e-card-Service und Gesundheitsberatung. Sie wird bei jedem Besuch in der Ordination gesteckt.",
     "choices": [
-      "Eine persönliche Chipkarte. Angaben: Name, Titel, Foto, Versicherungsnummer, Kartenfolgenummer, NFC-Symbol und die Telefonnummern von e-card-Service und Gesundheitsberatung. Sie wird bei jeder Konsultation in der Ordination gesteckt.",
+      "Eine persönliche Chipkarte. Angaben: Name, Titel, Foto, Versicherungsnummer, Kartenfolgenummer, NFC-Symbol und die Telefonnummern von e-card-Service und Gesundheitsberatung. Sie wird bei jedem Besuch in der Ordination gesteckt.",
       "Eine Kreditkarte mit Kontonummer; sie wird nur beim ersten Besuch gesteckt.",
       "Eine Karte nur für die Praxis; sie enthält Diagnosen und wird jährlich gesteckt.",
       "Ein Rezeptausweis ohne persönliche Angaben; er wird nur in der Apotheke verwendet."
@@ -373,9 +373,9 @@ export const tafelQuestions = [
     "sourceNumber": 17,
     "topic": "tafel-honorar",
     "question": "Was regelt die Honorarordnung?",
-    "answer": "Sie ist Teil des Gesamtvertrags und nennt die Leistungen und Positionen, die direkt mit der Kasse verrechnet werden dürfen. Nicht enthaltene Leistungen können nicht über diese Honorarordnung abgerechnet werden.",
+    "answer": "Sie ist Teil des Gesamtvertrags und nennt alle Leistungen und Positionen, die direkt mit der Kasse abgerechnet werden dürfen.",
     "choices": [
-      "Sie ist Teil des Gesamtvertrags und nennt die Leistungen und Positionen, die direkt mit der Kasse verrechnet werden dürfen. Nicht enthaltene Leistungen können nicht über diese Honorarordnung abgerechnet werden.",
+      "Sie ist Teil des Gesamtvertrags und nennt alle Leistungen und Positionen, die direkt mit der Kasse abgerechnet werden dürfen.",
       "Nur die Gehälter der Assistenz.",
       "Nur die privaten Preise aller Zahnärzte.",
       "Nur Öffnungszeiten und Urlaubsvertretungen."
